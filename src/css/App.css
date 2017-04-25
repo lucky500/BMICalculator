@@ -1,0 +1,114 @@
+@import "./bootstrap.css";
+@import "./font-awesome.css";
+
+.App {
+  /*text-align: center;*/
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 50px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+.row {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+.navbar {
+    background-color: #e3e3e3;
+    min-height: 30px;
+}
+.navbar-default {
+    border-color: #e7e7e7;
+}
+.navbar-brand{
+    padding: 0;
+    height: auto;
+}
+.nav>li {
+    border-left: 1px solid #b2b2b2;
+}
+.nav>li:last-child {
+    border-right: 1px solid #b2b2b2;
+}
+.navbar-nav > li > .dropdown-menu {
+    border-right: 1px solid #b2b2b2;
+}
+.dropdown-menu > li.region > a {
+    margin-left: 20px;
+}
+.navbar-nav > li > a {
+    padding-bottom: 4px;
+    padding-top: 4px;
+}
+.navbar-nav > li > a.myanalog {
+    /*padding-bottom: 13px;*/
+}
+/* Mid Header CSS */
+.midheader {
+    box-shadow: -2px 3px 4px 0 rgba(0,0,0,.2);
+    z-index: 1000;
+}
+.midheader img {
+    max-width: 153px;
+}
+.midheader form {
+    padding: 4px 16px 24px;
+    margin-bottom: 12px;
+}
+.midheader form input {
+    width:76%;
+    border: none;
+    box-shadow: none;
+    line-height: 36px;
+    font-size: 14px;
+    margin-bottom: 4px;
+    border-bottom: 2px solid #ACACAC;
+    padding: 10px 0px;
+}
+.midheader .xout {
+    visibility: hidden;
+}
+.midheader .search {
+    color: #acacac;
+}
+.midheader .searchin {
+    color:#fff;
+    background: #009fbd;
+    border-radius: 50%;
+    padding: 15px;
+    margin-left: 10px;
+}
+.midheader .searchoff {
+
+}
+.midheader .searchon {
+    background: #e3e3e3;
+}
+.midheader .xin {
+    visibility: visible;
+    background: #009fbd;
+    color: #fff;
+    border-radius: 50%;
+    padding:9px;
+    margin-left: 10px;
+}
+/* Bottom Bar */
+.bottomnav .navbar {
+    background: #fff;
+}
