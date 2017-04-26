@@ -26,14 +26,21 @@ class Search extends React.Component {
           searchOn: true,
       })
   }
+  searchForm = () => {
+      return (
+          <div>
+          <input type="text" placeholder="Search" />
+          <a href="#" className={this.state.searchOn ? "xin" : "xout"}><span className="sr-only">Clear</span><i className="fa fa-remove"></i></a>
+          <a href="#" className={this.state.searchOn ? "searchin" : "search"}><span className="sr-only">Search</span><i className="fa fa-search"></i></a>
+          </div>
+      );
+  }
 
   render() {
       return(
           <div>
               <form onFocus={this.searchOn} className={this.state.searchOn ? "searchon" : "searchoff"}>
-                  <input type="text" placeholder="Search" />
-                  <a href="#" className={this.state.searchOn ? "xin" : "xout"}><span className="sr-only">Clear</span><i className="fa fa-remove"></i></a>
-                  <a href="#" className={this.state.searchOn ? "searchin" : "search"}><span className="sr-only">Search</span><i className="fa fa-search"></i></a>
+                  {this.searchForm()}
                </form>
           </div>
         )
