@@ -1,0 +1,398 @@
+{
+  "Updates": [
+    {
+      "Title": "AD204",
+      "Description": "Low Cost, Miniature Isolation Amplifier powered by external clock",
+      "LinkText": null,
+      "LinkSrc": null,
+      "Status": null,
+      "UpdateDate": "/Date(-62135578800000)/",
+      "UpdateType": null
+    },
+    {
+      "Title": "AD5694",
+      "Description": "Quad, 12-Bit nanoDAC+™ with I2C Interface",
+      "LinkText": null,
+      "LinkSrc": null,
+      "Status": null,
+      "UpdateDate": "/Date(-62135578800000)/",
+      "UpdateType": null
+    },
+    {
+      "Title": "AD620",
+      "Description": "Low Drift, Low Power Instrumentation Amp with Set Gains of 1 to 10000",
+      "LinkText": null,
+      "LinkSrc": null,
+      "Status": null,
+      "UpdateDate": "/Date(-62135578800000)/",
+      "UpdateType": null
+    },
+    {
+      "Title": "AD640",
+      "Description": "DC-Coupled Demodulating 120 MHz Logarithmic Amplifier",
+      "LinkText": null,
+      "LinkSrc": null,
+      "Status": null,
+      "UpdateDate": "/Date(-62135578800000)/",
+      "UpdateType": null
+    },
+    {
+      "Title": "AD7705",
+      "Description": "3V/5V, 1 mW, 2-Channel Differential, 16-Bit Sigma-Delta ADC",
+      "LinkText": null,
+      "LinkSrc": null,
+      "Status": null,
+      "UpdateDate": "/Date(-62135578800000)/",
+      "UpdateType": null
+    },
+    {
+      "Title": "AD7706",
+      "Description": "3V/5V, 1mW, 3-Channel Pseudo Differential, 16-Bit Sigma-Delta ADC",
+      "LinkText": null,
+      "LinkSrc": null,
+      "Status": null,
+      "UpdateDate": "/Date(-62135578800000)/",
+      "UpdateType": null
+    },
+    {
+      "Title": "ADUM1400",
+      "Description": "Quad-Channel Digital Isolator (4/0 Channel Directionality)",
+      "LinkText": null,
+      "LinkSrc": null,
+      "Status": null,
+      "UpdateDate": "/Date(-62135578800000)/",
+      "UpdateType": null
+    },
+    {
+      "Title": "ADXL323",
+      "Description": "Small, Low Power, 2-Axis ±3g iMEMS® Accelerometer",
+      "LinkText": null,
+      "LinkSrc": null,
+      "Status": null,
+      "UpdateDate": "/Date(-62135578800000)/",
+      "UpdateType": null
+    },
+    {
+      "Title": "HMC7586",
+      "Description": "71 GHz to 76 GHz, E-Band I/Q Downconverter",
+      "LinkText": null,
+      "LinkSrc": null,
+      "Status": null,
+      "UpdateDate": "/Date(-62135578800000)/",
+      "UpdateType": null
+    }
+  ],
+  "Resources": [
+    {
+      "Title": "ADALM1000",
+      "Description": null,
+      "LinkText": "24819",
+      "LinkSrc": "http://www-dev.corpnt.analog.com/en/design-center/evaluation-hardware-and-software/evaluation-boards-kits/eval-adalm1000.html",
+      "Status": null,
+      "UpdateDate": "/Date(-62135578800000)/",
+      "UpdateType": null
+    },
+    {
+      "Title": "Automotive==",
+      "Description": null,
+      "LinkText": "24798",
+      "LinkSrc": "http://www-dev.corpnt.analog.com/en/applications/markets/automotive.html",
+      "Status": null,
+      "UpdateDate": "/Date(-62135578800000)/",
+      "UpdateType": null
+    },
+    {
+      "Title": "CN0065",
+      "Description": null,
+      "LinkText": "25055",
+      "LinkSrc": "http://www-dev.corpnt.analog.com/en/design-center/reference-designs/hardware-reference-design/circuits-from-the-lab/cn0065.html",
+      "Status": null,
+      "UpdateDate": "/Date(-62135578800000)/",
+      "UpdateType": null
+    },
+    {
+      "Title": "CN0067",
+      "Description": null,
+      "LinkText": "25054",
+      "LinkSrc": "http://www-dev.corpnt.analog.com/en/design-center/reference-designs/hardware-reference-design/circuits-from-the-lab/cn0067.html",
+      "Status": null,
+      "UpdateDate": "/Date(-62135578800000)/",
+      "UpdateType": null
+    },
+    {
+      "Title": "Healthcare Landing Page",
+      "Description": null,
+      "LinkText": "24780",
+      "LinkSrc": "http://www-dev.corpnt.analog.com/en/applications/markets/healthcare.html",
+      "Status": null,
+      "UpdateDate": "/Date(-62135578800000)/",
+      "UpdateType": null
+    },
+    {
+      "Title": "IBIS Models",
+      "Description": null,
+      "LinkText": "24768",
+      "LinkSrc": "http://www-dev.corpnt.analog.com/en/design-center/simulation-models/ibis-models.html",
+      "Status": null,
+      "UpdateDate": "/Date(-62135578800000)/",
+      "UpdateType": null
+    }
+  ],
+  "ParametricSearches": [
+    {
+      "Title": "A/D Converters",
+      "Description": null,
+      "LinkText": "25407",
+      "LinkSrc": "http://www-dev.corpnt.analog.com/en/parametricsearch/10785",
+      "Status": null,
+      "UpdateDate": "/Date(-62135578800000)/",
+      "UpdateType": null
+    },
+    {
+      "Title": "Converters",
+      "Description": null,
+      "LinkText": "25407",
+      "LinkSrc": "http://www-dev.corpnt.analog.com/en/parametricsearch/10785",
+      "Status": null,
+      "UpdateDate": "/Date(-62135578800000)/",
+      "UpdateType": null
+    },
+    {
+      "Title": "Analog Devices Converters",
+      "Description": null,
+      "LinkText": "25407",
+      "LinkSrc": "http://www-dev.corpnt.analog.com/en/parametricsearch/10785",
+      "Status": null,
+      "UpdateDate": "/Date(-62135578800000)/",
+      "UpdateType": null
+    },
+    {
+      "Title": "A/D Converters",
+      "Description": null,
+      "LinkText": "25407",
+      "LinkSrc": "http://www-dev.corpnt.analog.com/en/parametricsearch/10785",
+      "Status": null,
+      "UpdateDate": "/Date(-62135578800000)/",
+      "UpdateType": null
+    }
+  ],
+  "Categories": [
+    {
+      "CategoryName": "Amplifiers"
+    },
+    {
+      "CategoryName": "Audio & Video Products"
+    },
+    {
+      "CategoryName": "Audio A/D Converters"
+    },
+    {
+      "CategoryName": "High Speed ADC > 10MSPS"
+    }
+  ],
+  "Newsletter": [
+    {
+      "EnglishTitle": "Industrial & Instrumentation",
+      "LocalizedTitle": "Industrial & Instrumentation",
+      "LocalizedDescription": "This newsletter keeps you up-to-date on the latest IC products, design tools, seminars, whitepapers, and videos that address the needs of the Industrial and Instrumentation system designers.",
+      "IsSubscribed": true,
+      "SampleURL": "/media/en/enewsletter/instrumentation/index.html ",
+      "UnSubscribedLink": "https://registration-dev.corpnt.analog.com/public/ManageSubscription.aspx?locale=en&SubscriptionValidationID=dXNlcmd1aWQ9NjkzY2JlZTQtNWQ0ZC00ZjUyLTgzMGMtNWE3YmQzOGY1OWQ3JmVpZD0yMDgyMzY1MzM4JmFjdGlvbj11bnN1Yg==",
+      "NewsletterSubscriptionDataList": [
+        {
+          "Title": null,
+          "NewsletterId": 2082365338,
+          "Country": "840",
+          "Region": "Global",
+          "LanguageCode": "en",
+          "LanguageName": "English",
+          "IsSubscribed": true,
+          "SubscriptionFailed": false
+        }
+      ]
+    },
+    {
+      "EnglishTitle": "Motor Control",
+      "LocalizedTitle": "Motor Control",
+      "LocalizedDescription": "This update on products and resources for motor and power control applications addresses our portfolio of solutions for applications such as low- and high-end motor control, servos, robotics, and standard inverters.",
+      "IsSubscribed": true,
+      "SampleURL": "/media/en/enewsletter/motor_control/index.html",
+      "UnSubscribedLink": "https://registration-dev.corpnt.analog.com/public/ManageSubscription.aspx?locale=en&SubscriptionValidationID=dXNlcmd1aWQ9NjkzY2JlZTQtNWQ0ZC00ZjUyLTgzMGMtNWE3YmQzOGY1OWQ3JmVpZD0yMDgyMzY1MzIxJmFjdGlvbj11bnN1Yg==",
+      "NewsletterSubscriptionDataList": [
+        {
+          "Title": null,
+          "NewsletterId": 2082365321,
+          "Country": "840",
+          "Region": "Global",
+          "LanguageCode": "en",
+          "LanguageName": "English",
+          "IsSubscribed": true,
+          "SubscriptionFailed": false
+        }
+      ]
+    },
+    {
+      "EnglishTitle": "Process Control",
+      "LocalizedTitle": "Process Control",
+      "LocalizedDescription": "Analog Devices continues to expand our portfolio of solutions for applications such as programmable logic controllers, distributed control systems, field instruments & smart transmitters, and temperature controllers. This newsletter features updates not only on those products but the resources you need to speed your design.",
+      "IsSubscribed": true,
+      "SampleURL": "/media/en/enewsletter/process_control/index.html ",
+      "UnSubscribedLink": "https://registration-dev.corpnt.analog.com/public/ManageSubscription.aspx?locale=en&SubscriptionValidationID=dXNlcmd1aWQ9NjkzY2JlZTQtNWQ0ZC00ZjUyLTgzMGMtNWE3YmQzOGY1OWQ3JmVpZD0yMDgyMzY1MzI4JmFjdGlvbj11bnN1Yg==",
+      "NewsletterSubscriptionDataList": [
+        {
+          "Title": null,
+          "NewsletterId": 2082365328,
+          "Country": "840",
+          "Region": "Global",
+          "LanguageCode": "en",
+          "LanguageName": "English",
+          "IsSubscribed": true,
+          "SubscriptionFailed": false
+        }
+      ]
+    },
+    {
+      "EnglishTitle": "RF & Microwave Source",
+      "LocalizedTitle": "RF & Microwave Source",
+      "LocalizedDescription": "This newsletter features the latest from Analog Devices portfolio of high-performance and high value RF IC technology, including RF Detection, Mixers, Modulators, Demodulators, PLLs, RF Amps, and converters.",
+      "IsSubscribed": true,
+      "SampleURL": "http://www.analog.com/newsletters/rf/",
+      "UnSubscribedLink": "https://registration-dev.corpnt.analog.com/public/ManageSubscription.aspx?locale=en&SubscriptionValidationID=dXNlcmd1aWQ9NjkzY2JlZTQtNWQ0ZC00ZjUyLTgzMGMtNWE3YmQzOGY1OWQ3JmVpZD04MTY4OTcxNjgmYWN0aW9uPXVuc3Vi",
+      "NewsletterSubscriptionDataList": [
+        {
+          "Title": null,
+          "NewsletterId": 816897168,
+          "Country": "840",
+          "Region": "Global",
+          "LanguageCode": "en",
+          "LanguageName": "English",
+          "IsSubscribed": true,
+          "SubscriptionFailed": false
+        }
+      ]
+    },
+    {
+      "EnglishTitle": "STAY TUNED: I&I",
+      "LocalizedTitle": "Healthcare",
+      "LocalizedDescription": "Whether you are designing patient monitoring devices for the home healthcare market, or ultrasound equipment for hospitals and clinics, this newsletter will keep you up-to-date on the latest ADI solutions including IC products, design tools, webcasts, technical articles, and videos",
+      "IsSubscribed": true,
+      "SampleURL": "/media/en/enewsletter/healthcare/index.html",
+      "UnSubscribedLink": "https://registration-dev.corpnt.analog.com/public/ManageSubscription.aspx?locale=en&SubscriptionValidationID=dXNlcmd1aWQ9NjkzY2JlZTQtNWQ0ZC00ZjUyLTgzMGMtNWE3YmQzOGY1OWQ3JmVpZD00MTAwNzk0NTgmYWN0aW9uPXVuc3Vi",
+      "NewsletterSubscriptionDataList": [
+        {
+          "Title": null,
+          "NewsletterId": 410079458,
+          "Country": "840",
+          "Region": "Global",
+          "LanguageCode": "en",
+          "LanguageName": "English",
+          "IsSubscribed": true,
+          "SubscriptionFailed": false
+        }
+      ]
+    }
+  ],
+  "Orders": [
+    {
+      "OrderDate": "2016-08-10",
+      "OrderNumber": "0008097831",
+      "ItemCount": 1,
+      "OrderPrice": "$131.44",
+      "Title": null,
+      "Description": null,
+      "LinkText": null,
+      "LinkSrc": "?order=0008097831",
+      "Status": null,
+      "UpdateDate": "/Date(-62135578800000)/",
+      "UpdateType": null
+    },
+    {
+      "OrderDate": "2016-08-10",
+      "OrderNumber": "0008097830",
+      "ItemCount": 3,
+      "OrderPrice": "$0.00",
+      "Title": null,
+      "Description": null,
+      "LinkText": null,
+      "LinkSrc": "?order=0008097830",
+      "Status": null,
+      "UpdateDate": "/Date(-62135578800000)/",
+      "UpdateType": null
+    },
+    {
+      "OrderDate": "2016-08-10",
+      "OrderNumber": "0008097830",
+      "ItemCount": 3,
+      "OrderPrice": "$0.00",
+      "Title": null,
+      "Description": null,
+      "LinkText": null,
+      "LinkSrc": "?order=0008097830",
+      "Status": null,
+      "UpdateDate": "/Date(-62135578800000)/",
+      "UpdateType": null
+    },
+    {
+      "OrderDate": "2016-08-10",
+      "OrderNumber": "0008097830",
+      "ItemCount": 3,
+      "OrderPrice": "$0.00",
+      "Title": null,
+      "Description": null,
+      "LinkText": null,
+      "LinkSrc": "?order=0008097830",
+      "Status": null,
+      "UpdateDate": "/Date(-62135578800000)/",
+      "UpdateType": null
+    },
+    {
+      "OrderDate": "2016-08-10",
+      "OrderNumber": "0008097830",
+      "ItemCount": 3,
+      "OrderPrice": "$0.00",
+      "Title": null,
+      "Description": null,
+      "LinkText": null,
+      "LinkSrc": "?order=0008097830",
+      "Status": null,
+      "UpdateDate": "/Date(-62135578800000)/",
+      "UpdateType": null
+    },
+    {
+      "OrderDate": "2016-08-10",
+      "OrderNumber": "0008097830",
+      "ItemCount": 3,
+      "OrderPrice": "$0.00",
+      "Title": null,
+      "Description": null,
+      "LinkText": null,
+      "LinkSrc": "?order=0008097830",
+      "Status": null,
+      "UpdateDate": "/Date(-62135578800000)/",
+      "UpdateType": null
+    }
+  ],
+  "SignedIn": true,
+  "FirstName": "Rupesh Kumar",
+  "LastName": "Prasad",
+  "Email": "rupeshadi@mailinator.com",
+  "UserGuid": "693cbee4-5d4d-4f52-830c-5a7bd38f59d7",
+  "Country": "US",
+  "EZUserName": "jsur",
+  "MyAnalogNotificationSubscription": true,
+  "MyAnalogNotificationUnSubscribeLink": "https://registration-dev.corpnt.analog.com/public/ManageSubscription.aspx?locale=en&SubscriptionValidationID=dXNlcmd1aWQ9NjkzY2JlZTQtNWQ0ZC00ZjUyLTgzMGMtNWE3YmQzOGY1OWQ3JmVpZD1teWFuYWxvZ25vdGlmaWNhdGlvbiZhY3Rpb249dW5zdWI=",
+  "DictionaryUrls": {
+    "EZFetchUser": "https://ez.analog.com/api/core/v3/people/username/{0}?fields=-resources,id",
+    "EZFetchUserActivities": "https://ez.analog.com/api/core/v3/contents?filter=author(/people/{0}",
+    "NewProductsJson": "http://www-dev.corpnt.analog.com/cdp/cms/en/listing/newproductlisting.js",
+    "NewProductsSeeAll": "http://www-dev.corpnt.analog.com/en/products/landing-pages/new-products-listing.html",
+    "OrderDetails": "https://my-dev.corpnt.analog.com/en/myanalog/my-orders/orderdetails.html",
+    "ADIRoot": "http://www-dev.corpnt.analog.com",
+    "ProductSeeAll": "https://my-dev.corpnt.analog.com/en/myanalog/my-updates/my-product-updates.html",
+    "ResourceSeeAll": "https://my-dev.corpnt.analog.com/en/myanalog/manage-updates/manage-resources.html",
+    "NewsletterSeeAll": "https://my-dev.corpnt.analog.com/en/myanalog/manage-updates/manage-newsletters.html",
+    "PSTSeeAll": "https://my-dev.corpnt.analog.com/en/myanalog/parametric-searches.html",
+    "OrderSeeAll": "https://my-dev.corpnt.analog.com/en/myanalog/my-orders.html"
+
+  }
+}
