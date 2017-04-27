@@ -25,7 +25,7 @@ class Carousel extends React.Component {
   render() {
       return(
           <div>
-              <div id="carousel-example-generic" className="carousel slide" data-ride="carousel">
+              <div id="carousel-example-generic" className="carousel slide" data-ride="carousel" data-interval="false">
 
                 <ol className="carousel-indicators">
                   <li data-target="#carousel-example-generic" data-slide-to="0" className="active"></li>
@@ -37,7 +37,6 @@ class Carousel extends React.Component {
                   <div className="item active">
                     <img src="http://www.analog.com/-/media/analog/en/landing-pages/hero-landing-pages/ligo_hero_mobile.jpg" alt="..." />
                     <div className="carousel-caption">
-                      ...
                     </div>
                   </div>
                   <div className="item">
