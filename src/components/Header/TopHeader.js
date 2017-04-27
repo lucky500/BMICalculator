@@ -3,6 +3,8 @@ import myAnalog from '../../img/myanalog_logo.png';
 import { Link } from 'react-router-dom';
 //import { NavDropdown, MenuItem } from 'react-bootstrap';
 
+let data = require('../../data/data.json');
+
 class TopHeader extends React.Component {
 
   constructor (props) {
@@ -13,7 +15,7 @@ class TopHeader extends React.Component {
   }
 
   componentDidMount() {
-      //console.log('Header', this);
+      console.log('data', data);
 
   }
 
