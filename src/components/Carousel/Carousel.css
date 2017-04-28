@@ -1,1 +1,54 @@
 /* Carousel CSS goes here */
+.carousel-inner > .item > img {
+	max-width: inherit !important;
+	min-width: 100%;
+}
+
+.banner1, .banner3 {
+	position: relative;
+	right: 4%;
+}
+
+.carousel-inner > .item > .banner2 {
+	height: 350px;
+}
+
+.carousel-hero-area:before {
+	background-color: #7C4A8B;
+	opacity: .7;
+}
+
+.carousel-hero-area {
+	width: 55%;
+	height: 100%;
+	z-index: 10;
+	padding: 20px 10px 20px 0;
+	position: absolute;
+}
+
+.carousel-hero-area .text h2,
+.carousel-hero-area .text p,
+.carousel-hero-area .text a {
+	color: #fff;
+	font-family: Azbuka, Arial, Helvetica, sans-serif;
+}
+
+.carousel-hero-area .text h2 {
+	font-weight: 700;
+}
+
+.carousel .carousel-indicators {
+	left: 21%;
+}
+
+.carousel .carousel-indicators li,  .carousel-indicators .active {
+	width: 15px;
+	height: 15px;
+	margin: 0;
+	margin-right: 3px; 
+}
+
+.carousel-control .glyphicon-chevron-left,
+.carousel-control .glyphicon-chevron-right {
+	display: none !important;
+}
