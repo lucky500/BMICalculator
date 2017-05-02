@@ -109,4 +109,12 @@
 		padding-right: 0;
 		min-width: 100%;
 	}
+
+	.carousel-hero-area .text {
+		float: left;
+		padding: 10px 10px 20px 0;
+		height: auto;
+	}
+
+
 }
