@@ -1,21 +1,9 @@
 /* Carousel CSS goes here */
 /*Carousel hero img*/
-.carousel-inner > .item > img {
-	max-width: inherit !important;
-	min-width: 100%;
-	min-height: initial;
-}
 
-.carousel-inner > .item > .banner2 {
-	height: 350px;
-}
 
-* {
+/** {
 	outline: 1px solid orange;
-}
-/*.carousel-hero-area:before {
-	background-color: #7C4A8B;
-	opacity: .7;
 }*/
 
 .pannel1 {
@@ -52,9 +40,8 @@
 /*Text over carousel images*/
 .carousel-hero-area {
 	height: 100%;
-	width: 50%;
+	width: 100%;
 	z-index: 10;
-	padding: 20px 10px 20px 0;
 	position: absolute;
 }
 
@@ -62,8 +49,8 @@
 	color: #fff;
 	font-family: Azbuka, Arial, Helvetica, sans-serif;
 	z-index: 100;
-	float: right;
 	width: 400px;
+	float: right;
 }
 
 .carousel-hero-area .text a {
@@ -77,6 +64,13 @@
 .carousel .carousel-indicators {
 	left: 21%;
 }
+
+/*overlay container size*/
+.carousel-hero-area .row {
+	display: flex;
+	height: 100%;
+}
+
 
 /*bootstrap default indicators (removed)*/
 .carousel-control.left,
@@ -98,11 +92,21 @@
 
 /*DESKTOP ONLY STYLES*/
 @media only screen and (min-device-width : 736px) {
-
+	.carousel-inner > .item > .banner2 {
+		height: 350px;
+	}
 }
 
 /*MOBILE ONLY STILES*/
 @media only screen and (min-device-width: 320px) and (max-device-width: 568px) { 
+	.carousel-hero-area .row {
+		display: block;
+	}
 
-
+	.carousel-hero-area > .col-xs-12 {
+		height: 75px;
+		padding-left: 0;
+		padding-right: 0;
+		min-width: 100%;
+	}
 }

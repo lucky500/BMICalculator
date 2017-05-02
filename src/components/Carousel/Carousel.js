@@ -38,9 +38,9 @@ class Carousel extends React.Component {
 
                 <div className="carousel-inner" role="listbox">
                   <div className="item active">
-                    <div className="carousel-hero-area pannel1">
+                    <div className="carousel-hero-area">
                       <div className="row">
-                        <div className="col-md-12">
+                        <div className="col-xs-12 col-md-6 pannel1">
                           <div className="text">
                             <h2>FROM DC TO AC TO LEADING-EDGE</h2>
                             <p>ADI's precision mixed-signal processing technology and system-level expertise are helping SolarEdge deliver a critical breakthrough in solar energy.
@@ -51,15 +51,17 @@ class Carousel extends React.Component {
                             </strong>
                           </div>
                         </div>
+                        <div className="col-xs-12 col-md-6">
+                        </div>
                       </div>
                     </div>
                     <div className="img-responsive banner1">
                     </div>
                   </div>
                   <div className="item">
-                    <div className="carousel-hero-area pannel2">
+                    <div className="carousel-hero-area">
                       <div className="row">
-                        <div className="col-md-12">
+                        <div className="col-xs-12 col-md-6 pannel2">
                           <div className="text">
                             <h2>ULTRA LOW POWER ADUCM3029 MICROCONTROLLER</h2>
                             <p>FOR IoT applications where power consumption, security,
@@ -72,18 +74,20 @@ class Carousel extends React.Component {
                             </strong>
                           </div>
                         </div>
+                        <div className="col-xs-12 col-md-6">
+                        </div>
                       </div>
                     </div>
                     <div className="img-responsive banner2">
                     </div>
                   </div>
                   <div className="item">
-                    <div className="carousel-hero-area pannel3">
+                    <div className="carousel-hero-area">
                       <div className="row">
-                        <div className="col-md-6">
+                        <div className="col-sm-6 col-xs-12 pannel3">
                           <div className="text">
                             <h2>THE CHIRP HEARD &#39;ROUND THE UNIVERSE</h2>
-                            <p>Analog Devices is proud to have its converters,
+                            <p className="hidden-xs hidden-sm">Analog Devices is proud to have its converters,
                               temperature sensors, op amps and more utilized by LIGO
                               - which listens to the universe of gravitational waves,
                               ripples in the fabric of space-time.
@@ -94,7 +98,7 @@ class Carousel extends React.Component {
                             </strong>
                           </div>
                         </div>
-                        <div className="col-md-6">
+                        <div className="col-md-6 col-xs-12">
                         </div>
                       </div>
                     </div>
