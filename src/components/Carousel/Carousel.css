@@ -2,9 +2,9 @@
 /*Carousel hero img*/
 
 
-/** {
+* {
 	outline: 1px solid orange;
-}*/
+}
 
 .pannel1 {
 	background-color: rgba(255, 114, 0, 0.7);
@@ -61,8 +61,13 @@
 	font-weight: 700;
 }
 
+.indicators-container {
+	width: 100px;
+}
+
 .carousel .carousel-indicators {
-	left: 21%;
+	margin-left: -433px;
+	width: inherit;
 }
 
 /*overlay container size*/
@@ -85,15 +90,16 @@
 	margin-right: 3px; 
 }
 
-.carousel-control .glyphicon-chevron-left,
-.carousel-control .glyphicon-chevron-right {
-	display: none !important;
-}
 
 /*DESKTOP ONLY STYLES*/
 @media only screen and (min-device-width : 736px) {
 	.carousel-inner > .item > .banner2 {
 		height: 350px;
+	}
+
+	.carousel-control .glyphicon-chevron-left,
+	.carousel-control .glyphicon-chevron-right {
+		display: none !important;
 	}
 }
 
@@ -112,9 +118,15 @@
 
 	.carousel-hero-area .text {
 		float: left;
-		padding: 10px 10px 20px 0;
+		padding: 10px 0 20px 0;
 		height: auto;
+		width: 100%;
 	}
 
+	.carousel-control .glyphicon-chevron-left,
+	.carousel-control .glyphicon-chevron-right {
+		display: block;
+		top: 70%;
+	}
 
 }

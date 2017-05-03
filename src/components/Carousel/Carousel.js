@@ -29,13 +29,13 @@ class Carousel extends React.Component {
       return(
           <div>
               <div id="carousel-example-generic" className="carousel slide" data-ride="carousel" data-interval="false">
-
-                <ol className="carousel-indicators">
-                  <li data-target="#carousel-example-generic" data-slide-to="0" className="active"></li>
-                  <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-                  <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-                </ol>
-
+                  <div className="indicators-container">
+                    <ol className="carousel-indicators">
+                      <li data-target="#carousel-example-generic" data-slide-to="0" className="active"></li>
+                      <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                      <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                    </ol>
+                  </div>
                 <div className="carousel-inner" role="listbox">
                   <div className="item active">
                     <div className="carousel-hero-area">
@@ -43,7 +43,7 @@ class Carousel extends React.Component {
                         <div className="col-xs-12 col-md-6 pannel1">
                           <div className="text">
                             <h2>FROM DC TO AC TO LEADING-EDGE</h2>
-                            <p>ADI's precision mixed-signal processing technology and system-level expertise are helping SolarEdge deliver a critical breakthrough in solar energy.
+                            <p className="hidden-xs hidden-sm">ADI's precision mixed-signal processing technology and system-level expertise are helping SolarEdge deliver a critical breakthrough in solar energy.
                             </p>
                             <strong>
                               <a href="#">See how we're taking solar energy mainstream &#62;
@@ -64,7 +64,7 @@ class Carousel extends React.Component {
                         <div className="col-xs-12 col-md-6 pannel2">
                           <div className="text">
                             <h2>ULTRA LOW POWER ADUCM3029 MICROCONTROLLER</h2>
-                            <p>FOR IoT applications where power consumption, security,
+                            <p className="hidden-xs hidden-sm">FOR IoT applications where power consumption, security,
                               and robustness are key. Full-on at 30&#956;A/MHz, sleep at 
                               750nA.
                             </p>
