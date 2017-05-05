@@ -60,6 +60,12 @@
     /*padding-bottom: 13px;*/
 }
 /* Mid Header CSS */
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
 .midheader {
     box-shadow: -2px 3px 4px 0 rgba(0,0,0,.2);
     z-index: 1000;
@@ -67,8 +73,11 @@
 .midheader img {
     max-width: 153px;
 }
+.midheader .searchstate {
+    min-height: 115px;
+}
 .midheader form {
-    padding: 4px 16px 24px;
+    padding: 15px 20px 16px 20px;
     margin-bottom: 12px;
 }
 .midheader form input {
@@ -78,21 +87,42 @@
     line-height: 36px;
     font-size: 14px;
     margin-bottom: 4px;
-    border-bottom: 2px solid #ACACAC;
     padding: 10px 0px;
+}
+.midheader .line {
+    border-top: 2px solid #ACACAC;
+}
+.midheader form input.inputin {
+    background: #e3e3e3;
 }
 .midheader .xout {
     visibility: hidden;
 }
+.midheader .cross {
+    color:#009fbd;
+    font-weight: 500;
+}
+.midheader .tips {
+    color:#009fbd;
+    font-weight: 500;
+    float: right;
+}
 .midheader .search {
     color: #acacac;
+    width:36px;
+    height: 36px;
+    float: right;
 }
 .midheader .searchin {
     color:#fff;
     background: #009fbd;
     border-radius: 50%;
-    padding: 15px;
+    width:36px;
+    height: 36px;
+    line-height: 36px;
     margin-left: 10px;
+    text-align: center;
+    float: right;
 }
 .midheader .searchoff {
 
@@ -104,9 +134,14 @@
     visibility: visible;
     background: #009fbd;
     color: #fff;
+    width:26px;
+    height: 26px;
     border-radius: 50%;
-    padding:9px;
+    line-height: 26px;
     margin-left: 10px;
+    margin-top: 8px;
+    float: right;
+    text-align: center;
 }
 /* Bottom Bar */
 .bottomnav .navbar {
