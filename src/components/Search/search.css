@@ -1,0 +1,70 @@
+.midheader .searchstate {
+    min-height: 115px;
+}
+.midheader form {
+    padding: 15px 20px 16px 20px;
+    margin-bottom: 12px;
+}
+.midheader form input {
+    width:76%;
+    border: none;
+    box-shadow: none;
+    line-height: 36px;
+    font-size: 14px;
+    margin-bottom: 4px;
+    padding: 10px 0px;
+}
+.midheader .line {
+    border-top: 2px solid #ACACAC;
+}
+.midheader form input.inputin {
+    background: #e3e3e3;
+}
+.midheader .xout {
+    visibility: hidden;
+}
+.midheader .cross {
+    color:#009fbd;
+    font-weight: 500;
+}
+.midheader .tips {
+    color:#009fbd;
+    font-weight: 500;
+    float: right;
+}
+.midheader .search {
+    color: #acacac;
+    width:36px;
+    height: 36px;
+    float: right;
+}
+.midheader .searchin {
+    color:#fff;
+    background: #009fbd;
+    border-radius: 50%;
+    width:36px;
+    height: 36px;
+    line-height: 36px;
+    margin-left: 10px;
+    text-align: center;
+    float: right;
+}
+.midheader .searchoff {
+
+}
+.midheader .searchon {
+    background: #e3e3e3;
+}
+.midheader .xin {
+    visibility: visible;
+    background: #009fbd;
+    color: #fff;
+    width:26px;
+    height: 26px;
+    border-radius: 50%;
+    line-height: 26px;
+    margin-left: 10px;
+    margin-top: 8px;
+    float: right;
+    text-align: center;
+}
