@@ -1,0 +1,28 @@
+/* NEW PRODUCT SECTION STYLE */
+* {
+	outline: 1px solid orange;
+}
+.new-products-component {
+	background-color: #f5f5f5;
+}
+
+.new-products-component li {
+	list-style-type: none;
+}
+
+.featured-new-products-container .product-description {
+	padding-top: 10px;
+}
+
+.product-description, .product-image {
+	float: left;
+	padding-right: 0;
+	width: 50%;
+}
+
+.new-products-component .btn {
+	width: 90%;
+	background-color: #009fbd;
+	color: #fff;
+	border-radius: 0;
+}

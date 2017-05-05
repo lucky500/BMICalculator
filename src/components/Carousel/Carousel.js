@@ -64,6 +64,7 @@ class Carousel extends React.Component {
                             <h2>ULTRA LOW POWER ADUCM3029 MICROCONTROLLER</h2>
                             <p className="hidden-xs hidden-sm">FOR IoT applications where power consumption, security,
                               and robustness are key. Full-on at 30&#956;A/MHz, sleep at 
+                            </p>  
                             <p>FOR IoT applications where power consumption, security,
                               and robustness are key. Full-on at 30&#956;A/MHz, sleep at
                               750nA.

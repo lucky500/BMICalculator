@@ -1,5 +1,6 @@
 import React from 'react';
 import Carousel from '../../components/Carousel';
+import NewProducts from '../../components/NewProducts';
 
 class Contact extends React.Component {
 
@@ -22,6 +23,7 @@ class Contact extends React.Component {
       return(
           <div>
               <Carousel />
+              <NewProducts />
           </div>
         )
     }
