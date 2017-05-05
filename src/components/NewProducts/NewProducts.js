@@ -39,7 +39,7 @@ class NewProducts extends React.Component {
                       <p>18-Bit, 2 MSPS Precision SAR Differential ADC</p>
                     </div>
                     <div className="product-image">
-                      <img src={AD4003} alt=""/>
+                      <img src={AD4003} alt="" className="img-responsive" />
                     </div>
                   </a>
                 </div>
