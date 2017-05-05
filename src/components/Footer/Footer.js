@@ -1,8 +1,9 @@
 import React from 'react';
+import './Footer.css';
 
 class Footer extends React.Component {
 
-  constructor() {
+  constructor(props) {
     super();
   }
 
@@ -14,7 +15,9 @@ class Footer extends React.Component {
 
   render() {
     return (
-      <div dangerouslySetInnerHTML={{__html: this.state.content}}></div>
+      <div dangerouslySetInnerHTML={{__html: this.state.content}}>
+        <div>Hello!</div>
+      </div>
     )
   }
 }
