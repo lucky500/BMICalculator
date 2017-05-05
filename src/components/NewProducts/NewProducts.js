@@ -1,4 +1,5 @@
 import React from 'react';
+import 'newproducts.css';
 
 
 //import { NavDropdown, MenuItem } from 'react-bootstrap';

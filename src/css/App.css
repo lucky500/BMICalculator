@@ -32,6 +32,7 @@
 .navbar {
     background-color: #e3e3e3;
     min-height: 30px;
+    margin-bottom: 0;
 }
 .navbar-default {
     border-color: #e7e7e7;
@@ -39,6 +40,9 @@
 .navbar-brand{
     padding: 0;
     height: auto;
+}
+ul.nav.navbar-nav li a:hover strong {
+    color: #7C4A8B;
 }
 .nav>li {
     border-left: 1px solid #b2b2b2;
@@ -67,6 +71,7 @@ button:focus {
     outline: none;
 }
 .midheader {
+    margin-top:25px;
     box-shadow: -2px 3px 4px 0 rgba(0,0,0,.2);
     z-index: 1000;
 }
