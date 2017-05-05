@@ -77,7 +77,7 @@ class NewProducts extends React.Component {
                     RF Diversity and 1.2GHz BW Observation Receiver
                   </a>
                 </li>
-                <li className="text-center">
+                <li className="text-center last">
                   <a href="#" className="btn">
                     VIEW ALL NEW PRODUCTS
                   </a>
