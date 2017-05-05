@@ -32,6 +32,7 @@
 .navbar {
     background-color: #e3e3e3;
     min-height: 30px;
+    margin-bottom: 0;
 }
 .navbar-default {
     border-color: #e7e7e7;
@@ -39,6 +40,9 @@
 .navbar-brand{
     padding: 0;
     height: auto;
+}
+ul.nav.navbar-nav li a:hover strong {
+    color: #7C4A8B;
 }
 .nav>li {
     border-left: 1px solid #b2b2b2;
@@ -60,54 +64,21 @@
     /*padding-bottom: 13px;*/
 }
 /* Mid Header CSS */
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
 .midheader {
+    margin-top:25px;
     box-shadow: -2px 3px 4px 0 rgba(0,0,0,.2);
     z-index: 1000;
 }
 .midheader img {
     max-width: 153px;
 }
-.midheader form {
-    padding: 4px 16px 24px;
-    margin-bottom: 12px;
-}
-.midheader form input {
-    width:76%;
-    border: none;
-    box-shadow: none;
-    line-height: 36px;
-    font-size: 14px;
-    margin-bottom: 4px;
-    border-bottom: 2px solid #ACACAC;
-    padding: 10px 0px;
-}
-.midheader .xout {
-    visibility: hidden;
-}
-.midheader .search {
-    color: #acacac;
-}
-.midheader .searchin {
-    color:#fff;
-    background: #009fbd;
-    border-radius: 50%;
-    padding: 15px;
-    margin-left: 10px;
-}
-.midheader .searchoff {
 
-}
-.midheader .searchon {
-    background: #e3e3e3;
-}
-.midheader .xin {
-    visibility: visible;
-    background: #009fbd;
-    color: #fff;
-    border-radius: 50%;
-    padding:9px;
-    margin-left: 10px;
-}
 /* Bottom Bar */
 .bottomnav .navbar {
     background: #fff;

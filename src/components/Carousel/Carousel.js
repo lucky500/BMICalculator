@@ -1,8 +1,6 @@
 import React from 'react';
 import './Carousel.css';
-import Banner1 from '../../img/carousel1.jpg';
-import Banner2 from '../../img/carousel2.jpg';
-import Banner3 from '../../img/carousel3.jpg';
+
 
 //import { NavDropdown, MenuItem } from 'react-bootstrap';
 
@@ -66,6 +64,8 @@ class Carousel extends React.Component {
                             <h2>ULTRA LOW POWER ADUCM3029 MICROCONTROLLER</h2>
                             <p className="hidden-xs hidden-sm">FOR IoT applications where power consumption, security,
                               and robustness are key. Full-on at 30&#956;A/MHz, sleep at 
+                            <p>FOR IoT applications where power consumption, security,
+                              and robustness are key. Full-on at 30&#956;A/MHz, sleep at
                               750nA.
                             </p>
                             <strong>
