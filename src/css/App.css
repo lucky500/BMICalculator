@@ -44,7 +44,7 @@
 ul.nav.navbar-nav li:first-child a:hover strong {
     color: #7C4A8B;
 }
-ul.nav.navbar-nav li::nth-child(1) a:hover strong {
+ul.nav.navbar-nav li:nth-child(2) a:hover strong {
     color: #00a94f;
 }
 
