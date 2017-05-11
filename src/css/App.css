@@ -41,9 +41,13 @@
     padding: 0;
     height: auto;
 }
-ul.nav.navbar-nav li a:hover strong {
+ul.nav.navbar-nav li:first-child a:hover strong {
     color: #7C4A8B;
 }
+ul.nav.navbar-nav li:nth-child(2) a:hover strong {
+    color: #00a94f;
+}
+
 .nav>li {
     border-left: 1px solid #b2b2b2;
 }

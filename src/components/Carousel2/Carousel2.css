@@ -9,71 +9,30 @@
 	height: 100%;
 	margin-top: 20px;
 	margin-bottom: 10px;
-	padding-bottom: 10px;
+	padding-bottom: 35px;
 }
 
-.analog-signals-container .col-md-12 {
-	margin-bottom: 20px;
+.carousel {
+	width: 70%;
+	margin: 0 auto;
 }
 
-.analog-signals-container .carousel-inner {
-	margin-left: 125px;
+.carousel-cell {
+	padding-left: 10px;
+	width: 100%;
+	height: 277px;
+	margin-right: 10px;
+	background: #f;
 }
 
-.analog-signals-container .carousel .carousel-indicators {
-	bottom: -13%;
-	left: 88%;
-}
-
-.analog-signals-container .carousel .carousel-indicators li {
-	background-color: #d7d7d7;
-	border: none;
-	width: 8px;
-	height: 8px;
-}
-
-.analog-signals-container .carousel .carousel-indicators .active {
+.flickity-page-dots .dot.is-selected {
 	background-color: #66c6d8;
-}
-
-.analog-signals-container .carousel-control .icon-next,
-.analog-signals-container .carousel-control .icon-prev {
-	color: #009fbd;
-	width: 50px;
-	height: 50px;
-	text-shadow: none;
-}
-
-.analog-signals-container h2 {
-	width: 200px;
-	font-weight: 400;
-	margin-left: 110px;
-	margin-bottom: 20px;
 }
 
 .analog-signals-card {
 	background-color: #fff;
-	padding: 20px 10px;
-	position: relative;
 	height: 288px;
-	width: 277.333px;
-	float: left;
-	display: block;
-	margin-right: 16px;
 }
-
-/*.analog-signals-card::after {
-	content: '';
-	position: absolute;
-	bottom: -7px;
-	left: 0;
-	display: block;
-	height: 7px;
-	width: 100%;
-	border-top: 7px solid #fff;
-	border-right: 7px solid transparent;
-}
-*/
 
 .analog-signals-card .header {
 	margin: 0 0 16px;
@@ -83,6 +42,12 @@
 	font-weight: 700;
 	height: 42px;
 	display: block;
+}
+
+.analog-signals-container h2 {
+	width: 200px;
+	font-weight: 400;
+	margin-bottom: 20px;
 }
 
 .analog-signals-card h3 {
@@ -99,23 +64,44 @@
 }
 
 
-@media (min-width: 768px) {
-  .analog-signals-container .carousel-inner > .active-next  {
-      display: flex;
+
+@media screen and ( min-width: 768px ) {
+  /* half-width cells for larger devices */
+  .carousel-cell { width: 32.32%; }
+  .analog-signals-container h2 {
+  	margin-left: 15%;
   }
+
 }
 
-@media (max-width: 768px) {
-	.analog-signals-container .carousel-inner {
-		margin-left: 0;
+@media screen and ( min-width: 900px ) {
+  /* arrows */
+  .flickity-prev-next-button.previous {
+		left: -45px;
 	}
 
-	.analog-signals-container h2 {
-		margin-left: 0;
+	.flickity-prev-next-button.next {
+		right: -45px;
 	}
 
-	.analog-signals-container .carousel .carousel-indicators {
-		margin-left: 0;
-		left: 26%;
+}
+
+@media screen and ( max-width: 736px) {
+	.container, .carousel {
+		width: 100%;
 	}
+
+	.carousel-cell {
+		padding-left: 32px;
+		padding-right: 38px;
+	}
+
+	.flickity-prev-next-button.previous {
+		left: -2px;
+	}
+
+	.flickity-prev-next-button.next {
+		right: -2px;
+	}
+
 }
