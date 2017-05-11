@@ -22,7 +22,6 @@
 	width: 100%;
 	height: 277px;
 	margin-right: 10px;
-	background: #f;
 }
 
 .flickity-page-dots .dot.is-selected {
@@ -31,7 +30,6 @@
 
 .analog-signals-card {
 	background-color: #fff;
-	height: 288px;
 }
 
 .analog-signals-card .header {
