@@ -37,18 +37,34 @@ class Carousel2 extends React.Component {
                         <li data-target="#carousel-analog-signals" data-slide-to="2"></li>
                         <li data-target="#carousel-analog-signals" data-slide-to="3"></li>
                         <li data-target="#carousel-analog-signals" data-slide-to="4"></li>
-                        <li data-target="#carousel-analog-signals" data-slide-to="5"></li>
-                        <li data-target="#carousel-analog-signals" data-slide-to="6"></li>
-                        <li data-target="#carousel-analog-signals" data-slide-to="7"></li>
-                        <li data-target="#carousel-analog-signals" data-slide-to="8"></li>
-                        <li data-target="#carousel-analog-signals" data-slide-to="9"></li>
-                        <li data-target="#carousel-analog-signals" data-slide-to="10"></li>
-                        <li data-target="#carousel-analog-signals" data-slide-to="11"></li>
-                        <li data-target="#carousel-analog-signals" data-slide-to="12"></li>
                       </ol>
                       <div className="carousel-inner" role="listbox">
-                        <div className="item active col-xs-12 col-md-4">
-                          <div className="analog-signals-card">
+                        <div className="item active">
+                          <div className="analog-signals-card col-xs-12 col-md-3">
+                            <span className="header">
+                              Press Release
+                              <span className="date">APR 17 2017</span>
+                            </span>
+                            <a href="#">
+                              <h3>Analog Devices, Inc. to Report Second Quarter FIscal Year 2017 Financial...</h3>
+                            </a>
+                            <p>
+                              Press release shceduled for 8 a.m. eastern time on May 31, 2017
+                            </p>
+                          </div>
+                          <div className="analog-signals-card col-xs-12 col-md-3">
+                            <span className="header">
+                              Press Release
+                              <span className="date">APR 17 2017</span>
+                            </span>
+                            <a href="#">
+                              <h3>Analog Devices, Inc. to Report Second Quarter FIscal Year 2017 Financial...</h3>
+                            </a>
+                            <p>
+                              Press release shceduled for 8 a.m. eastern time on May 31, 2017
+                            </p>
+                          </div>
+                          <div className="analog-signals-card col-xs-12 col-md-3">
                             <span className="header">
                               Press Release
                               <span className="date">APR 17 2017</span>
@@ -61,8 +77,32 @@ class Carousel2 extends React.Component {
                             </p>
                           </div>
                         </div>
-                        <div className="item active-next col-xs-12 col-md-4">
-                          <div className="analog-signals-card">
+                        <div className="item">
+                          <div className="analog-signals-card col-xs-12 col-md-3">
+                            <span className="header">
+                              Press Release
+                              <span className="date">APR 17 2017</span>
+                            </span>
+                            <a href="#">
+                              <h3>Analog Devices, Inc. to Report Second Quarter FIscal Year 2017 Financial...</h3>
+                            </a>
+                            <p>
+                              Press release shceduled for 8 a.m. eastern time on May 31, 2017
+                            </p>
+                          </div>
+                          <div className="analog-signals-card col-xs-12 col-md-3">
+                            <span className="header">
+                              Press Release
+                              <span className="date">APR 17 2017</span>
+                            </span>
+                            <a href="#">
+                              <h3>Analog Devices, Inc. to Report Second Quarter FIscal Year 2017 Financial...</h3>
+                            </a>
+                            <p>
+                              Press release shceduled for 8 a.m. eastern time on May 31, 2017
+                            </p>
+                          </div>
+                          <div className="analog-signals-card col-xs-12 col-md-3">
                             <span className="header">
                               Press Release
                               <span className="date">APR 17 2017</span>
@@ -75,8 +115,32 @@ class Carousel2 extends React.Component {
                             </p>
                           </div>
                         </div>
-                        <div className="item active-next col-xs-12 col-md-4">
-                          <div className="analog-signals-card">
+                        <div className="item">
+                          <div className="analog-signals-card col-xs-12 col-md-3">
+                            <span className="header">
+                              Press Release
+                              <span className="date">APR 17 2017</span>
+                            </span>
+                            <a href="#">
+                              <h3>Analog Devices, Inc. to Report Second Quarter FIscal Year 2017 Financial...</h3>
+                            </a>
+                            <p>
+                              Press release shceduled for 8 a.m. eastern time on May 31, 2017
+                            </p>
+                          </div>
+                          <div className="analog-signals-card col-xs-12 col-md-3">
+                            <span className="header">
+                              Press Release
+                              <span className="date">APR 17 2017</span>
+                            </span>
+                            <a href="#">
+                              <h3>Analog Devices, Inc. to Report Second Quarter FIscal Year 2017 Financial...</h3>
+                            </a>
+                            <p>
+                              Press release shceduled for 8 a.m. eastern time on May 31, 2017
+                            </p>
+                          </div>
+                          <div className="analog-signals-card col-xs-12 col-md-3">
                             <span className="header">
                               Press Release
                               <span className="date">APR 17 2017</span>
@@ -89,8 +153,8 @@ class Carousel2 extends React.Component {
                             </p>
                           </div>
                         </div>
-                        <div className="item col-xs-12 col-md-4">
-                          <div className="analog-signals-card">
+                        <div className="item">
+                          <div className="analog-signals-card col-xs-12 col-md-3">
                             <span className="header">
                               Press Release
                               <span className="date">APR 17 2017</span>
@@ -102,9 +166,7 @@ class Carousel2 extends React.Component {
                               Press release shceduled for 8 a.m. eastern time on May 31, 2017
                             </p>
                           </div>
-                        </div>
-                        <div className="item col-xs-12 col-md-4">
-                          <div className="analog-signals-card">
+                          <div className="analog-signals-card col-xs-12 col-md-3">
                             <span className="header">
                               Press Release
                               <span className="date">APR 17 2017</span>
@@ -116,93 +178,7 @@ class Carousel2 extends React.Component {
                               Press release shceduled for 8 a.m. eastern time on May 31, 2017
                             </p>
                           </div>
-                        </div>
-                        <div className="item col-xs-12 col-md-4">
-                          <div className="analog-signals-card">
-                            <span className="header">
-                              Press Release
-                              <span className="date">APR 17 2017</span>
-                            </span>
-                            <a href="#">
-                              <h3>Analog Devices, Inc. to Report Second Quarter FIscal Year 2017 Financial...</h3>
-                            </a>
-                            <p>
-                              Press release shceduled for 8 a.m. eastern time on May 31, 2017
-                            </p>
-                          </div>
-                        </div>
-                        <div className="item col-xs-12 col-md-4">
-                          <div className="analog-signals-card">
-                            <span className="header">
-                              Press Release
-                              <span className="date">APR 17 2017</span>
-                            </span>
-                            <a href="#">
-                              <h3>Analog Devices, Inc. to Report Second Quarter FIscal Year 2017 Financial...</h3>
-                            </a>
-                            <p>
-                              Press release shceduled for 8 a.m. eastern time on May 31, 2017
-                            </p>
-                          </div>
-                        </div>
-                        <div className="item col-xs-12 col-md-4">
-                          <div className="analog-signals-card">
-                            <span className="header">
-                              Press Release
-                              <span className="date">APR 17 2017</span>
-                            </span>
-                            <a href="#">
-                              <h3>Analog Devices, Inc. to Report Second Quarter FIscal Year 2017 Financial...</h3>
-                            </a>
-                            <p>
-                              Press release shceduled for 8 a.m. eastern time on May 31, 2017
-                            </p>
-                          </div>
-                        </div>
-                        <div className="item col-xs-12 col-md-4">
-                          <div className="analog-signals-card">
-                            <span className="header">
-                              Press Release
-                              <span className="date">APR 17 2017</span>
-                            </span>
-                            <a href="#">
-                              <h3>Analog Devices, Inc. to Report Second Quarter FIscal Year 2017 Financial...</h3>
-                            </a>
-                            <p>
-                              Press release shceduled for 8 a.m. eastern time on May 31, 2017
-                            </p>
-                          </div>
-                        </div>
-                        <div className="item col-xs-12 col-md-4">
-                          <div className="analog-signals-card">
-                            <span className="header">
-                              Press Release
-                              <span className="date">APR 17 2017</span>
-                            </span>
-                            <a href="#">
-                              <h3>Analog Devices, Inc. to Report Second Quarter FIscal Year 2017 Financial...</h3>
-                            </a>
-                            <p>
-                              Press release shceduled for 8 a.m. eastern time on May 31, 2017
-                            </p>
-                          </div>
-                        </div>
-                        <div className="item col-xs-12 col-md-4">
-                          <div className="analog-signals-card">
-                            <span className="header">
-                              Press Release
-                              <span className="date">APR 17 2017</span>
-                            </span>
-                            <a href="#">
-                              <h3>Analog Devices, Inc. to Report Second Quarter FIscal Year 2017 Financial...</h3>
-                            </a>
-                            <p>
-                              Press release shceduled for 8 a.m. eastern time on May 31, 2017
-                            </p>
-                          </div>
-                        </div>
-                        <div className="item col-xs-12 col-md-4">
-                          <div className="analog-signals-card">
+                          <div className="analog-signals-card col-xs-12 col-md-3">
                             <span className="header">
                               Press Release
                               <span className="date">APR 17 2017</span>

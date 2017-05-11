@@ -100,7 +100,7 @@
 
 
 @media (min-width: 768px) {
-  .item.active-next {
+  .analog-signals-container .carousel-inner > .active-next  {
       display: flex;
   }
 }
