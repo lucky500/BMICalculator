@@ -1,1 +1,132 @@
 /* Carousel CSS goes here */
+/*Carousel hero img*/
+
+
+/** {
+	outline: 1px solid orange;
+}*/
+
+.pannel1 {
+	background-color: rgba(255, 114, 0, 0.7);
+}
+
+.banner1 {
+	background: url('../../img/carousel1.jpg') right no-repeat;
+}
+
+.pannel2 {
+	background-color: rgba(0, 159, 189, 0.7);
+}
+
+.banner2 {
+	background: url('../../img/carousel2.jpg') right no-repeat;
+}
+
+.pannel3 {
+	background-color: rgba(124, 74, 139, 0.6);
+}
+
+.banner3 {
+	background: url('../../img/carousel3.jpg') right no-repeat;
+}
+
+
+.banner1, .banner2, .banner3 {
+	background-size: cover;
+	height: 350px !important;
+	width: 100%;
+}
+
+/*Text over carousel images*/
+.carousel-hero-area {
+	height: 100%;
+	width: 100%;
+	z-index: 10;
+	position: absolute;
+}
+
+.carousel-hero-area .text  {
+	color: #fff;
+	font-family: Azbuka, Arial, Helvetica, sans-serif;
+	z-index: 100;
+	width: 400px;
+	float: right;
+}
+
+.carousel-hero-area .text a {
+	color: #fff;
+}
+
+.carousel-hero-area .text h2 {
+	font-weight: 700;
+}
+
+.indicators-container {
+	width: 100px;
+}
+
+.carousel .carousel-indicators {
+	margin-left: -433px;
+	width: inherit;
+}
+
+/*overlay container size*/
+.carousel-hero-area .row {
+	display: flex;
+	height: 100%;
+}
+
+
+/*bootstrap default indicators (removed)*/
+.carousel-control.left,
+.carousel-control.right {
+	background-image: none !important;
+}
+
+.carousel .carousel-indicators li,  .carousel-indicators .active {
+	width: 15px;
+	height: 15px;
+	margin: 0;
+	margin-right: 3px; 
+}
+
+
+/*DESKTOP ONLY STYLES*/
+@media only screen and (min-device-width : 736px) {
+	.carousel-inner > .item > .banner2 {
+		height: 350px;
+	}
+
+	.carousel-control .glyphicon-chevron-left,
+	.carousel-control .glyphicon-chevron-right {
+		display: none !important;
+	}
+}
+
+/*MOBILE ONLY STILES*/
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) { 
+	.carousel-hero-area .row {
+		display: block;
+	}
+
+	.carousel-hero-area > .col-xs-12 {
+		height: 75px;
+		padding-left: 0;
+		padding-right: 0;
+		min-width: 100%;
+	}
+
+	.carousel-hero-area .text {
+		float: left;
+		padding: 10px 0 20px 0;
+		height: auto;
+		width: 100%;
+	}
+
+	.carousel-control .glyphicon-chevron-left,
+	.carousel-control .glyphicon-chevron-right {
+		display: block;
+		top: 70%;
+	}
+
+}
