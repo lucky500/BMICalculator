@@ -1,5 +1,4 @@
 import React from 'react';
-import FooterBlue from './FooterBlue';
 import './Footer.css';
 
 class Footer extends React.Component {
@@ -16,7 +15,6 @@ class Footer extends React.Component {
     return (
       <div>
         <footer className="footer">
-            <FooterBlue />
              <div className="row footer-bottom" name="adi_footer_bottom">
                  <div className="col-md-12 clearfix">
                      <div className="col-md-2" name="Footer_Social_Media_Links_eee39a50-a6b0-4426-9c6a-78dd1523c507">
