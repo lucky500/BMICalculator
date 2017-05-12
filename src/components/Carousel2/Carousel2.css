@@ -1,0 +1,105 @@
+/*GLOBAL SETTTINGS*/
+.header, h2 {
+	font-family: Azbuka, Helvetica, Arial, sans-serif;
+}
+
+/*PAGE SPECIFIC SETTTINGS*/
+.analog-signals-container {
+	background-color: #f5f5f5;
+	height: 100%;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	padding-bottom: 35px;
+}
+
+.carousel {
+	width: 70%;
+	margin: 0 auto;
+}
+
+.carousel-cell {
+	padding-left: 10px;
+	width: 100%;
+	height: 277px;
+	margin-right: 10px;
+}
+
+.flickity-page-dots .dot.is-selected {
+	background-color: #66c6d8;
+}
+
+.analog-signals-card {
+	background-color: #fff;
+}
+
+.analog-signals-card .header {
+	margin: 0 0 16px;
+	color: #636363;
+	line-height: 22px;
+	font-size: 18px;
+	font-weight: 700;
+	height: 42px;
+	display: block;
+}
+
+.analog-signals-container h2 {
+	width: 200px;
+	font-weight: 400;
+	margin-bottom: 20px;
+}
+
+.analog-signals-card h3 {
+	color: #009fbd;
+	font-size: 20px;
+	line-height: 24px;
+	font-weight: 700;
+}
+
+.analog-signals-card .date {
+	font-size: 14px;
+	font-weight: 400;
+	display: block;
+}
+
+
+
+@media screen and ( min-width: 768px ) {
+  /* half-width cells for larger devices */
+  .carousel-cell { width: 32.32%; }
+  .analog-signals-container h2 {
+  	margin-left: 15%;
+  }
+
+}
+
+@media screen and ( min-width: 900px ) {
+  /* arrows */
+  .flickity-prev-next-button.previous {
+		left: -45px;
+	}
+
+	.flickity-prev-next-button.next {
+		right: -45px;
+	}
+
+}
+
+@media screen and ( max-width: 736px) {
+	.container, .carousel {
+		width: 100%;
+	}
+
+	.carousel-cell {
+		padding-left: 32px;
+		padding-right: 38px;
+	}
+
+	.flickity-prev-next-button.previous {
+		left: -2px;
+	}
+
+	.flickity-prev-next-button.next {
+		right: -2px;
+	}
+
+}
