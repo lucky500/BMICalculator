@@ -83,7 +83,7 @@
 	background-image: none !important;
 }
 
-.carousel .carousel-indicators li,  .carousel-indicators .active {
+.main-carousel .carousel-indicators li,  .carousel-indicators .active {
 	width: 15px;
 	height: 15px;
 	margin: 0;

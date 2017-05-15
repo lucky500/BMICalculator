@@ -1,0 +1,30 @@
+/*Footer Styles*/
+
+
+
+/*Mobile view menu only*/
+@media screen and ( max-width: 736px) {
+	footer,
+	footer a {
+		color: #fff;
+	}
+
+	footer {
+		background-color: #656565;
+	}
+
+	footer .container,
+	footer .col-xs-12 {
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+	.global-toggle-heading {
+		width: 100%;
+		background-color: #656565;
+	}
+
+
+
+}
+
