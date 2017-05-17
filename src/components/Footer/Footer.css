@@ -56,6 +56,34 @@ footer .information-card-block {
   position: relative;
 }
 
+footer .dividertop {
+	height: 16px;
+	border: 1px solid #ccc;
+	border-top: none;
+	margin-top: 20px;
+}
+
+footer .dividerbottom {
+	height: 16px;
+	border-right: 1px solid #ccc;
+	margin-bottom: 15px;
+}
+
+footer .blue-box-text {
+	text-align: center;
+	font-size: 18px;
+}
+
+footer h5 {
+	padding-bottom: 8px;
+	font-size: 22px;
+}
+
+footer .callout-line {
+	background: url('../../img/mobile/bg-header.png') no-repeat;
+}
+
+
 .fa-facebook,
 .fa-twitter,
 .fa-linkedin,
@@ -241,6 +269,15 @@ footer .information-card-block {
 
 	.quicklinks li {
 		padding: 2px 5px 2px 0;
+	}
+
+	.footer-top {
+		border-bottom: 1px solid #ccc;
+		padding-bottom: 30px;
+	}
+
+	.footer-bottom {
+		padding-top: 20px;
 	}
 }
 
