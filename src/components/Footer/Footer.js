@@ -1,7 +1,14 @@
 import React from 'react';
 import './Footer.css';
+import India from '../../img/mobile/map_india.jpg'
+import Korea from '../../img/mobile/map_korea.jpg'
+import Singapore from '../../img/mobile/map_singapore.jpg'
+import Taiwan from '../../img/mobile/map_taiwan.jpg'
 import English from '../../img/mobile/language_en.jpg';
-
+import Chinese from '../../img/mobile/language_cn.jpg';
+import Japanese from '../../img/mobile/language_ja.jpg';
+import Russian from '../../img/mobile/language_ru.jpg';
+import FooterLogo from '../../img/mobile/footer_logo.gif';
 
 class Footer extends React.Component {
 
@@ -18,14 +25,14 @@ class Footer extends React.Component {
         <footer className="footer">
           <section className="container">
             <div className="row hidden-xs hidden-sm">
-              <div className="col-xs-8">
+              <div className="col-sm-9 col-lg-8">
                 <div className="row">
                   <div className="col-xs-3">
                     <div className="text-xs-center">
                       <div className="information-card-block chipped-corner">
                         <blockquote>
-                          <p>9,000</p>
-                          <p>Problem Solvers</p>
+                          <p>15,000</p>
+                          <p className="facts">Problem Solvers</p>
                         </blockquote>
                       </div>
                     </div>
@@ -34,8 +41,8 @@ class Footer extends React.Component {
                     <div className="text-xs-center">
                       <div className="information-card-block chipped-corner">
                         <blockquote>
-                          <p>2,200</p>
-                          <p>Patents</p>
+                          <p>4,700+</p>
+                          <p className="facts">Patents Worldwide</p>
                         </blockquote>
                       </div>
                     </div>
@@ -44,8 +51,8 @@ class Footer extends React.Component {
                     <div className="text-xs-center chipped-corner">
                       <div className="information-card-block">
                         <blockquote>
-                          <p>100,000</p>
-                          <p>Customers</p>
+                          <p>125,000</p>
+                          <p className="facts">Customers</p>
                         </blockquote>
                       </div>
                     </div>
@@ -54,8 +61,8 @@ class Footer extends React.Component {
                     <div className="text-xs-center">
                       <div className="information-card-block chipped-corner">
                         <blockquote>
-                          <p>50</p>
-                          <p>Years</p>
+                          <p>50+</p>
+                          <p className="facts">Years</p>
                         </blockquote>
                       </div>
                     </div>
@@ -79,7 +86,7 @@ class Footer extends React.Component {
                   </div>
                 </div>
               </div>
-              <div className="col-xs-4 text-white">
+              <div className="col-sm-3 col-lg-4">
                 <h5>
                   Ahead of What's Possible
                 </h5>
@@ -96,7 +103,7 @@ class Footer extends React.Component {
                   <div className="toggle-heading">
                     <a className="visible-xs" role="button" data-toggle="collapse" href="#socialCollapse" aria-expanded="false" aria-controls="socialCollapse">
                      Social
-                     <i className="fa fa-lg fa-chevron-down" aria-hidden="true"></i>
+                     <i className="fa fa-chevron-down" aria-hidden="true"></i>
                     </a>
                   </div>
                   <div id="socialCollapse">
@@ -123,67 +130,68 @@ class Footer extends React.Component {
                   </div>
                 </div>
               </div>
-              <div className="col-xs-12 col-sm-4 col-lg-3">
+              <div className="col-xs-12 col-sm-4 col-lg-4">
                 <div className="hidden-xs">Quick Links</div>
                 <div className="toggle-heading">
                   <a className="visible-xs" role="button" data-toggle="collapse" href="#quickLinksCollapse" aria-expanded="false" aria-controls="quickLinksCollapse">
                     Quick Links
-                    <i className="fa fa-lg fa-chevron-down" aria-hidden="true"></i>
+                    <i className="fa fa-chevron-down" aria-hidden="true"></i>
                   </a>
                 </div>
                 <div id="quickLinksCollapse">
-                  <div className="col-xs-12 col-md-12 col-lg-6">
-                    <ul className="list-group list-group-flush">
+                  <div className="col-xs-12 quicklinks">
+                    <ul className="list-group list-group-flush clearfix">
                       <li className="list-group-item">About ADI</li>
                       <li className="list-group-item">Alliances</li>
                       <li className="list-group-item">Analog Dialogue</li>
-                      <li className="list-group-item">4link</li>
-                    </ul>
-                  </div>
-                  <div className="col-xs-12 col-md-12 col-lg-6">
-                    <ul className="list-group list-group-flush">
-                      <li className="list-group-item">1link</li>
-                      <li className="list-group-item">2link</li>
-                      <li className="list-group-item">3link</li>
-                      <li className="list-group-item">4link</li>
+                      <li className="list-group-item">Careers</li>
+                      <li className="list-group-item">Contact us</li>
+                      <li className="list-group-item">Investor Relations</li>
+                      <li className="list-group-item">News Room</li>
+                      <li className="list-group-item">Quality &#38; Reliability</li>
+                      <li className="list-group-item">Sales &#38; Distribution</li>
                     </ul>
                   </div>
                 </div>
               </div>
-              <div className="visible-xs col-xs-12">
+              <div className="visible-xs col-xs-12 global-section">
                 <div className="toggle-heading">
                   <a role="button" data-toggle="collapse" href="#globalCollapse" aria-expanded="false" aria-controls="globalCollapse">
                    Global
-                   <i className="fa fa-lg fa-chevron-down" aria-hidden="true"></i>
+                   <i className="fa fa-chevron-down" aria-hidden="true"></i>
                   </a>
                 </div>
                 <div id="globalCollapse">
                   <p className="visible-xs">Please Select a Region</p>
                   <div className="list-group list-group-flush">
                     <a className="list-group-item" data-toggle="collapse" href="#indiaCollapse" aria-expanded="false" aria-controls="indiaCollapse">India
+                      <i className="fa fa-chevron-down" aria-hidden="true"></i>
                     </a>
                     <div id="indiaCollapse">
-                      <img src="#" alt="" />
+                      <img src={India} alt="" />
                     </div>
                     <a className="list-group-item" data-toggle="collapse" href="#koreaCollapse" aria-expanded="false" aria-controls="koreaCollapse">Korea
+                      <i className="fa fa-chevron-down" aria-hidden="true"></i>
                     </a>
                     <div id="koreaCollapse">
-                      <img src="#" alt="" />
+                      <img src={Korea} alt="" />
                     </div>
                     <a className="list-group-item" data-toggle="collapse" href="#singaporeCollapse" aria-expanded="false" aria-controls="singaporeCollapse">Singapore
+                      <i className="fa fa-chevron-down" aria-hidden="true"></i>
                     </a>
                     <div id="singaporeCollapse">
-                      <img src="#" alt="" />
+                      <img src={Singapore} alt="" />
                     </div>
                     <a className="list-group-item" data-toggle="collapse" href="#taiwanCollapse" aria-expanded="false" aria-controls="taiwanCollapse">Taiwan
+                      <i className="fa fa-chevron-down" aria-hidden="true"></i>
                     </a>
                     <div id="taiwanCollapse">
-                      <img src="#" alt="" />
+                      <img src={Taiwan} alt="" />
                     </div>
                   </div>
                 </div>
               </div>
-              <div className="col-xs-12 col-sm-4 col-lg-3">
+              <div className="col-xs-12 col-sm-4 col-lg-2 language-section">
                 <div className="hidden-xs">
                   <div>Languages</div>
                   <ul className="list-group list-group-flush">
@@ -197,31 +205,35 @@ class Footer extends React.Component {
                   <div className="toggle-heading">
                     <a role="button" data-toggle="collapse" href="#languagesCollapse" aria-expanded="false" aria-controls="languagesCollapse">
                      Languages
-                     <i className="fa fa-lg fa-chevron-down" aria-hidden="true"></i>
+                     <i className="fa fa-chevron-down" aria-hidden="true"></i>
                     </a>
                   </div>
                   <div id="languagesCollapse">
                     <p className="visible-xs">Please select a Language</p>
                     <div className="list-group list-group-flush">
                       <a className="list-group-item" data-toggle="collapse" href="#englishCollapse" aria-expanded="false" aria-controls="englishCollapse">English
+                        <i className="fa fa-chevron-down" aria-hidden="true"></i>
                       </a>
                       <div id="englishCollapse">
                         <img src={English} alt="" />
                       </div>
                       <a className="list-group-item" data-toggle="collapse" href="#chineseCollapse" aria-expanded="false" aria-controls="chineseCollapse">简体中文
+                        <i className="fa fa-chevron-down" aria-hidden="true"></i>
                       </a>
                       <div id="chineseCollapse">
-                        <img src="#" alt="" />
+                        <img src={Chinese} alt="" />
                       </div>
                       <a className="list-group-item" data-toggle="collapse" href="#japanaseCollapse" aria-expanded="false" aria-controls="japanaseCollapse">日本語
+                        <i className="fa fa-chevron-down" aria-hidden="true"></i>
                       </a>
                       <div id="japanaseCollapse">
-                        <img src="#" alt="" />
+                        <img src={Japanese} alt="" />
                       </div>
-                      <a className="list-group-item" data-toggle="collapse" href="#russianCollapse" aria-expanded="false" aria-controls="russianCollapse">日本語
+                      <a className="list-group-item" data-toggle="collapse" href="#russianCollapse" aria-expanded="false" aria-controls="russianCollapse">Руccкий
+                        <i className="fa fa-chevron-down" aria-hidden="true"></i>
                       </a>
                       <div id="russianCollapse">
-                        <img src="#" alt="" />
+                        <img src={Russian} alt="" />
                       </div>
                     </div>
                   </div>
@@ -237,12 +249,19 @@ class Footer extends React.Component {
                 </div>
               </div>
             </div>
-            <div className="row">
-              <small className="float-md-left">1995 - 2016 Analog Devices, Inc. All Rights Reserved</small>
-              <div className="links-footer float-md-right">
-                <a className="nav-link" href="#">Sitemap</a>
-                <a className="nav-link" href="#">Privacy &amp; Security</a>
-                <a className="nav-link" href="#">Terms of Use</a>
+            <div className="row bottom-row">
+              <div className="col-md-6">
+                <div className="visible-xs">
+                  <img src={FooterLogo} alt="" className="footer-logo" />
+                </div>
+                <small className="float-left">1995 - 2016 Analog Devices, Inc. All Rights Reserved</small>
+              </div>
+              <div className="col-md-6">
+                <div className="links-footer float-right hidden-xs">
+                  <a className="nav-link" href="#">Sitemap</a>
+                  <a className="nav-link" href="#">Privacy &amp; Security</a>
+                  <a className="nav-link" href="#">Terms of Use</a>
+                </div>
               </div>
             </div>
           </section>
