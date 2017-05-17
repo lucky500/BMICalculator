@@ -1,6 +1,83 @@
+/*GLOBAL SETTTINGS*/
+p, a {
+	font-family: Azbuka, Helvetica, Arial, sans-serif;
+}
+
 /*Footer Styles*/
+footer {
+	background-color: #656565;
+	color: #fff;
+	font-size: 12px;
+	line-height: 18px;
+}
 
+footer .list-group-item {
+	background-color: transparent;
+}
 
+footer .information-card-block {
+	background-color: #009fbd;
+	height: 130px;
+}
+
+/*blue box chipped corner*/
+.chipped-corner:before {
+  content: '';
+  position: absolute;
+  bottom: -6px;
+  left: 0;
+  display: block;
+  height: 0;
+  width: 100%;
+  border-top: 7px solid #009fbd;
+  border-right: 7px solid transparent;
+}
+
+.chipped-corner{
+  position: relative;
+}
+
+.fa-facebook,
+.fa-twitter,
+.fa-linkedin,
+.fa-google-plus,
+.fa-youtube,
+.ez-icon {
+	color: #fff;
+	width: 31px;
+	height: 32px
+}
+
+.fa-facebook {
+	background-color: #3b5998;
+	padding: 4px 4px 0px 13px;
+}
+
+.fa-twitter {
+	background-color: #00aced;
+	padding: 2px 6px;
+}
+
+.fa-linkedin {
+	background-color: #007bb6;
+	padding: 2px 6px;
+}
+
+.fa-google-plus {
+	background-color: #dd4b39;
+	padding: 7px 3px 3px 6px;
+}
+
+.fa-youtube {
+	background-color: #bb0000;
+	padding: 2px 6px;
+}
+
+.ez-icon {
+	background-color: #27B34F;
+	padding: 8px 9px;
+	display: inline-block;
+}
 
 /*Mobile view menu only*/
 @media screen and ( max-width: 736px) {
@@ -9,8 +86,11 @@
 		color: #fff;
 	}
 
-	footer {
-		background-color: #656565;
+	footer a:hover,
+	footer a:visited,
+	footer a:focus {
+		color: inherit;
+		text-decoration: none;
 	}
 
 	footer .container,
@@ -19,12 +99,67 @@
 		padding-right: 0;
 	}
 
-	.global-toggle-heading {
-		width: 100%;
-		background-color: #656565;
+	footer .list-group-item:first-child,
+	footer .list-group-item:last-child  {
+		border-radius: 0;
 	}
 
+	footer li.list-group-item {
+		background-color: #323232;
+		border: 0;
+		border-top: 1px solid #656565;
+		padding: 16px 32px;
+	}
 
+	footer .list-group-item:first-child {
+		border-top: none;
+	}
+
+	.social-icons .list-group-item {
+		padding-left: 15px;
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+
+	.toggle-heading {
+		width: 100%;
+		background-color: #656565;
+		padding: 14px 16px;
+		text-transform: uppercase;
+		border-bottom: 1px solid #323232;
+	}
+
+	.toggle-heading a {
+		font-size: 18px;
+	}
+
+	.toggle-heading .fa-chevron-down {
+		float: right;
+	}
+
+	.footer img {
+		max-width: 100%;
+	}
+
+	#socialCollapse {
+	  overflow: hidden;
+	  clear: both;
+	}
 
 }
 
+/*Desktop and up only*/
+@media screen and ( min-width: 736px) {
+	footer {
+		padding-top: 30px;
+	}
+
+	footer .list-group-item {
+		border: none;
+	}
+}
+
+/** {
+	outline: 1px solid orange;
+}
+*/

@@ -15,7 +15,6 @@ class Footer extends React.Component {
 
   render() {
     return (
-      <div>
         <footer className="footer">
           <section className="container">
             <div className="row hidden-xs hidden-sm">
@@ -88,34 +87,48 @@ class Footer extends React.Component {
                   ADI enables our customers to interpret the world around us by intelligently bridging the physical and digital with unmatched technologies that sense, measure and connect.  We collaborate with our customers to accelerate the pace of innovation and create breakthrough solutions that are ahead of what’s possible.
                 </p>
               </div>
+              <hr />
             </div>
-            <hr />
             <div className="row">
               <div className="col-xs-12 col-sm-4 col-lg-3">
                 <div className="social">
-                  <div>
-                    <div className="hidden-xs">Social</div>
-                    <a className="btn btn-primary visible-xs" role="button" data-toggle="collapse" href="#socialCollapse" aria-expanded="false" aria-controls="socialCollapse">
+                  <div className="hidden-xs">Social</div>
+                  <div className="toggle-heading">
+                    <a className="visible-xs" role="button" data-toggle="collapse" href="#socialCollapse" aria-expanded="false" aria-controls="socialCollapse">
                      Social
+                     <i className="fa fa-lg fa-chevron-down" aria-hidden="true"></i>
                     </a>
                   </div>
                   <div id="socialCollapse">
-                    <ul className="list-group col">
-                      <li className="list-group-item col-xs-12 col-sm-4 fa fa-2x">EZ</li>
-                      <li className="list-group-item col-xs-12 col-sm-4 fa fa-facebook-official fa-2x"></li>
-                      <li className="list-group-item col-xs-12 col-sm-4 fa fa-twitter-square fa-2x"></li>
-                      <li className="list-group-item col-xs-12 col-sm-4 fa fa-linkedin-square fa-2x"></li>
-                      <li className="list-group-item col-xs-12 col-sm-4 fa fa-google-plus-square fa-2x"></li>
-                      <li className="list-group-item col-xs-12 col-sm-4 fa fa-youtube-square fa-2x"></li>
+                    <ul className="list-group col social-icons">
+                      <li className="list-group-item col-xs-12 col-sm-4">
+                        <i className="ez-icon">EZ</i>
+                      </li>
+                      <li className="list-group-item col-xs-12 col-sm-4">
+                        <i className="fa fa-facebook fa-2x" aria-hidden="true"></i>
+                      </li>
+                      <li className="list-group-item col-xs-12 col-sm-4">
+                          <i className="fa fa-twitter fa-2x" aria-hidden="true"></i>
+                      </li>
+                      <li className="list-group-item col-xs-12 col-sm-4">
+                        <i className="fa fa-linkedin fa-2x" aria-hidden="true"></i>
+                      </li>
+                      <li className="list-group-item col-xs-12 col-sm-4">
+                        <i className="fa fa-google-plus fa-lg" aria-hidden="true"></i>
+                      </li>
+                      <li className="list-group-item col-xs-12 col-sm-4">
+                        <i className="fa fa-youtube fa-2x" aria-hidden="true"></i>
+                      </li>
                     </ul>
                   </div>
                 </div>
               </div>
               <div className="col-xs-12 col-sm-4 col-lg-3">
-                <div>
-                  <div className="hidden-xs">Quick Links</div>
-                  <a className="btn btn-primary visible-xs" role="button" data-toggle="collapse" href="#quickLinksCollapse" aria-expanded="false" aria-controls="quickLinksCollapse">
+                <div className="hidden-xs">Quick Links</div>
+                <div className="toggle-heading">
+                  <a className="visible-xs" role="button" data-toggle="collapse" href="#quickLinksCollapse" aria-expanded="false" aria-controls="quickLinksCollapse">
                     Quick Links
+                    <i className="fa fa-lg fa-chevron-down" aria-hidden="true"></i>
                   </a>
                 </div>
                 <div id="quickLinksCollapse">
@@ -137,10 +150,11 @@ class Footer extends React.Component {
                   </div>
                 </div>
               </div>
-              <div className="visible-xs col-xs-12 col-sm-4 col-lg-3">
-                <div className="global-toggle-heading">
-                  <a className="global_btn" role="button" data-toggle="collapse" href="#globalCollapse" aria-expanded="false" aria-controls="globalCollapse">
+              <div className="visible-xs col-xs-12">
+                <div className="toggle-heading">
+                  <a role="button" data-toggle="collapse" href="#globalCollapse" aria-expanded="false" aria-controls="globalCollapse">
                    Global
+                   <i className="fa fa-lg fa-chevron-down" aria-hidden="true"></i>
                   </a>
                 </div>
                 <div id="globalCollapse">
@@ -180,16 +194,19 @@ class Footer extends React.Component {
                   </ul>
                 </div>
                 <div className="visible-xs">
-                  <a className="btn btn-primary" role="button" data-toggle="collapse" href="#languagesCollapse" aria-expanded="false" aria-controls="languagesCollapse">
-                   Languages
-                  </a>
+                  <div className="toggle-heading">
+                    <a role="button" data-toggle="collapse" href="#languagesCollapse" aria-expanded="false" aria-controls="languagesCollapse">
+                     Languages
+                     <i className="fa fa-lg fa-chevron-down" aria-hidden="true"></i>
+                    </a>
+                  </div>
                   <div id="languagesCollapse">
                     <p className="visible-xs">Please select a Language</p>
                     <div className="list-group list-group-flush">
                       <a className="list-group-item" data-toggle="collapse" href="#englishCollapse" aria-expanded="false" aria-controls="englishCollapse">English
                       </a>
                       <div id="englishCollapse">
-                        <img src="#" alt="" />
+                        <img src={English} alt="" />
                       </div>
                       <a className="list-group-item" data-toggle="collapse" href="#chineseCollapse" aria-expanded="false" aria-controls="chineseCollapse">简体中文
                       </a>
@@ -230,7 +247,6 @@ class Footer extends React.Component {
             </div>
           </section>
         </footer>
-      </div>
     )
   }
 }
