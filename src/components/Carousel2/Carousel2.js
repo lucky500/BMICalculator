@@ -29,7 +29,7 @@ class Carousel2 extends React.Component {
           {/* Flickity HTML init */}
             <div className="container">
               <h2>Analog Signal</h2>
-              <div className="carousel" data-flickity='{ "groupCells": true  }'>
+              <div className="carousel new-products-carousel" data-flickity='{ "groupCells": true  }'>
                 <div className="carousel-cell analog-signals-card">
                   <span className="header">
                     Press Release
