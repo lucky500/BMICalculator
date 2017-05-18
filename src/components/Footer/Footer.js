@@ -13,7 +13,18 @@ import FooterLogo from '../../img/mobile/footer_logo.gif';
 class Footer extends React.Component {
 
   constructor(props) {
-    super();
+    super(props);
+    this.handleClick = this.handleClick.bind(this);
+    this.state = {
+      active: false,
+    };
+  }
+
+  handleClick() {
+    const currentState = this.state.active;
+    this.setState({
+      active: !currentState
+    })
   }
 
   componentWillMount() {
@@ -97,13 +108,13 @@ class Footer extends React.Component {
             </div>
             <div className="footer-bottom">
               <div className="row">
-                <div className="col-xs-12 col-sm-4 col-lg-3">
+                <div className="col-xs-12 col-sm-4 col-lg-3 social-section">
                   <div className="social">
-                    <div className="hidden-xs">Social</div>
                     <div className="toggle-heading">
+                      <div className="hidden-xs header-4">Social</div>
                       <a className="visible-xs" role="button" data-toggle="collapse" href="#socialCollapse" aria-expanded="false" aria-controls="socialCollapse">
                        Social
-                       <i className="fa fa-chevron-down" aria-hidden="true"></i>
+                       <i onClick={this.handleClick} className={this.state.active ? "fa fa-chevron-up" : "fa fa-chevron-down"} aria-hidden="true"></i>
                       </a>
                     </div>
                     <div id="socialCollapse">
@@ -130,9 +141,9 @@ class Footer extends React.Component {
                     </div>
                   </div>
                 </div>
-                <div className="col-xs-12 col-sm-4 col-lg-4">
-                  <div className="hidden-xs">Quick Links</div>
+                <div className="col-xs-12 col-sm-4 col-lg-4 quicklinks-section">
                   <div className="toggle-heading">
+                    <div className="hidden-xs header-4">Quick Links</div>
                     <a className="visible-xs" role="button" data-toggle="collapse" href="#quickLinksCollapse" aria-expanded="false" aria-controls="quickLinksCollapse">
                       Quick Links
                       <i className="fa fa-chevron-down" aria-hidden="true"></i>
@@ -193,7 +204,7 @@ class Footer extends React.Component {
                 </div>
                 <div className="col-xs-12 col-sm-4 col-lg-2 language-section">
                   <div className="hidden-xs">
-                    <div>Languages</div>
+                    <div className="header-4">Languages</div>
                     <ul className="list-group list-group-flush">
                       <li className="list-group-item">English</li>
                       <li className="list-group-item">简体中文</li>
@@ -241,11 +252,13 @@ class Footer extends React.Component {
                 </div>
                 <div className="hidden-xs hidden-sm col-sm-4 col-lg-3">
                   <div>
-                    <div>NEWSLETTERS</div>
+                    <div className="header-4">NEWSLETTERS</div>
                     <div>
                       Interested in the latest news and articles about ADI products, design tools, training and events? Choose from one of our 12 newsletters that match your product area of interest, delivered monthly or quarterly to your inbox.
                     </div>
-                    <div className="btn btn-primary btn-small">Sign Up</div>
+                    <div className="control-form">
+                      <div className="btn btn-primary btn-small">Sign Up</div>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -254,7 +267,7 @@ class Footer extends React.Component {
                   <div className="visible-xs">
                     <img src={FooterLogo} alt="" className="footer-logo" />
                   </div>
-                  <small className="float-left">1995 - 2016 Analog Devices, Inc. All Rights Reserved</small>
+                  <p className="float-left">1995 - 2017 Analog Devices, Inc. All Rights Reserved</p>
                 </div>
                 <div className="col-md-6">
                   <div className="links-footer float-right hidden-xs">
