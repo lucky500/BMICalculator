@@ -1,0 +1,19 @@
+.radioverse{
+  color:#636363;
+}
+
+.radioverse a{
+  color:#009fbd
+}
+
+.radioverse-list{
+  padding: 16px 0 32px 0;
+}
+
+@media screen and (min-width: 1200px){
+  .radioverse.container {
+      max-width: 960px;
+      width: auto;
+      padding: 0 16px;
+  }
+}
