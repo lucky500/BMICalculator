@@ -63,7 +63,7 @@ class Search extends React.Component {
                   {this.searchForm()}
                </form>
           </div>
-        )
+        );
     }
 }
 
