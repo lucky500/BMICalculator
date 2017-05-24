@@ -130,7 +130,7 @@ footer .callout-line {
 /*====   Mobile view menu only   ====*/
 /*===================================*/
 
-@media screen and ( max-width: 736px) {
+@media screen and ( max-width: 768px) {
 	footer,
 	footer a {
 		color: #fff;
@@ -257,7 +257,7 @@ footer .callout-line {
 /*===================================*/
 /*====     Desktop and up        ====*/
 /*===================================*/
-@media screen and ( min-width: 736px) {
+@media screen and ( min-width: 768px) {
 	footer {
 		padding-top: 30px;
 	}

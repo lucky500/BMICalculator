@@ -14,22 +14,22 @@ class Footer extends React.Component {
 
   constructor(props) {
     super(props);
-    this.handleClick = this.handleClick.bind(this);
+    this.handleClick = this.toggleState.bind(this);
     this.state = {
-      active: false,
+      isActive: []
     };
   }
 
-  handleClick() {
-    const currentState = this.state.active;
-    this.setState({
-      active: !currentState
-    })
+  toggleState(i) {
+    let isActive = [...this.state.isActive];
+    isActive[i]  = !isActive[i];
+    this.setState({isActive});
   }
 
   componentWillMount() {
 
   }
+
 
   render() {
     return (
@@ -110,11 +110,11 @@ class Footer extends React.Component {
               <div className="row">
                 <div className="col-xs-12 col-sm-4 col-lg-3 social-section">
                   <div className="social">
-                    <div className="toggle-heading">
+                    <div className="toggle-heading" onClick={() => this.toggleState(0)}>
                       <div className="hidden-xs header-4">Social</div>
                       <a className="visible-xs" role="button" data-toggle="collapse" href="#socialCollapse" aria-expanded="false" aria-controls="socialCollapse">
                        Social
-                       <i onClick={this.handleClick} className={this.state.active ? "fa fa-chevron-up" : "fa fa-chevron-down"} aria-hidden="true"></i>
+                       <i className={this.state.isActive[0] ? "fa fa-chevron-up" : "fa fa-chevron-down"}  aria-hidden="true"></i>
                       </a>
                     </div>
                     <div id="socialCollapse">
@@ -142,11 +142,11 @@ class Footer extends React.Component {
                   </div>
                 </div>
                 <div className="col-xs-12 col-sm-4 col-lg-4 quicklinks-section">
-                  <div className="toggle-heading">
+                  <div className="toggle-heading" onClick={()=> this.toggleState(1)}>
                     <div className="hidden-xs header-4">Quick Links</div>
                     <a className="visible-xs" role="button" data-toggle="collapse" href="#quickLinksCollapse" aria-expanded="false" aria-controls="quickLinksCollapse">
                       Quick Links
-                      <i className="fa fa-chevron-down" aria-hidden="true"></i>
+                      <i className={this.state.isActive[1] ? "fa fa-chevron-up" : "fa fa-chevron-down"} aria-hidden="true"></i>
                     </a>
                   </div>
                   <div id="quickLinksCollapse">
@@ -166,35 +166,35 @@ class Footer extends React.Component {
                   </div>
                 </div>
                 <div className="visible-xs col-xs-12 global-section">
-                  <div className="toggle-heading">
+                  <div className="toggle-heading" onClick={() => this.toggleState(2)}>
                     <a role="button" data-toggle="collapse" href="#globalCollapse" aria-expanded="false" aria-controls="globalCollapse">
                      Global
-                     <i className="fa fa-chevron-down" aria-hidden="true"></i>
+                     <i className={this.state.isActive[2] ? "fa fa-chevron-up" : "fa fa-chevron-down"} aria-hidden="true"></i>
                     </a>
                   </div>
                   <div id="globalCollapse">
                     <p className="visible-xs">Please Select a Region</p>
                     <div className="list-group list-group-flush">
-                      <a className="list-group-item" data-toggle="collapse" href="#indiaCollapse" aria-expanded="false" aria-controls="indiaCollapse">India
-                        <i className="fa fa-chevron-down" aria-hidden="true"></i>
+                      <a onClick={() => this.toggleState(3)} className="list-group-item" data-toggle="collapse" href="#indiaCollapse" aria-expanded="false" aria-controls="indiaCollapse">India
+                        <i className={this.state.isActive[3] ? "fa fa-chevron-up" : "fa fa-chevron-down"} aria-hidden="true"></i>
                       </a>
                       <div id="indiaCollapse">
                         <img src={India} alt="" />
                       </div>
-                      <a className="list-group-item" data-toggle="collapse" href="#koreaCollapse" aria-expanded="false" aria-controls="koreaCollapse">Korea
-                        <i className="fa fa-chevron-down" aria-hidden="true"></i>
+                      <a onClick={() => this.toggleState(4)} className="list-group-item" data-toggle="collapse" href="#koreaCollapse" aria-expanded="false" aria-controls="koreaCollapse">Korea
+                        <i className={this.state.isActive[4] ? "fa fa-chevron-up" : "fa fa-chevron-down"} aria-hidden="true"></i>
                       </a>
                       <div id="koreaCollapse">
                         <img src={Korea} alt="" />
                       </div>
-                      <a className="list-group-item" data-toggle="collapse" href="#singaporeCollapse" aria-expanded="false" aria-controls="singaporeCollapse">Singapore
-                        <i className="fa fa-chevron-down" aria-hidden="true"></i>
+                      <a onClick={() => this.toggleState(5)} className="list-group-item" data-toggle="collapse" href="#singaporeCollapse" aria-expanded="false" aria-controls="singaporeCollapse">Singapore
+                        <i className={this.state.isActive[5] ? "fa fa-chevron-up" : "fa fa-chevron-down"} aria-hidden="true"></i>
                       </a>
                       <div id="singaporeCollapse">
                         <img src={Singapore} alt="" />
                       </div>
-                      <a className="list-group-item" data-toggle="collapse" href="#taiwanCollapse" aria-expanded="false" aria-controls="taiwanCollapse">Taiwan
-                        <i className="fa fa-chevron-down" aria-hidden="true"></i>
+                      <a onClick={() => this.toggleState(6)} className="list-group-item" data-toggle="collapse" href="#taiwanCollapse" aria-expanded="false" aria-controls="taiwanCollapse">Taiwan
+                        <i className={this.state.isActive[6] ? "fa fa-chevron-up" : "fa fa-chevron-down"} aria-hidden="true"></i>
                       </a>
                       <div id="taiwanCollapse">
                         <img src={Taiwan} alt="" />
@@ -213,35 +213,35 @@ class Footer extends React.Component {
                     </ul>
                   </div>
                   <div className="visible-xs">
-                    <div className="toggle-heading">
+                    <div className="toggle-heading" onClick={() => this.toggleState(7)}>
                       <a role="button" data-toggle="collapse" href="#languagesCollapse" aria-expanded="false" aria-controls="languagesCollapse">
                        Languages
-                       <i className="fa fa-chevron-down" aria-hidden="true"></i>
+                       <i className={this.state.isActive[7] ? "fa fa-chevron-up" : "fa fa-chevron-down"} aria-hidden="true"></i>
                       </a>
                     </div>
                     <div id="languagesCollapse">
                       <p className="visible-xs">Please select a Language</p>
                       <div className="list-group list-group-flush">
-                        <a className="list-group-item" data-toggle="collapse" href="#englishCollapse" aria-expanded="false" aria-controls="englishCollapse">English
-                          <i className="fa fa-chevron-down" aria-hidden="true"></i>
+                        <a onClick={() => this.toggleState(8)} className="list-group-item" data-toggle="collapse" href="#englishCollapse" aria-expanded="false" aria-controls="englishCollapse">English
+                          <i className={this.state.isActive[8] ? "fa fa-chevron-up" : "fa fa-chevron-down"} aria-hidden="true"></i>
                         </a>
                         <div id="englishCollapse">
                           <img src={English} alt="" />
                         </div>
-                        <a className="list-group-item" data-toggle="collapse" href="#chineseCollapse" aria-expanded="false" aria-controls="chineseCollapse">简体中文
-                          <i className="fa fa-chevron-down" aria-hidden="true"></i>
+                        <a onClick={() => this.toggleState(9)} className="list-group-item" data-toggle="collapse" href="#chineseCollapse" aria-expanded="false" aria-controls="chineseCollapse">简体中文
+                          <i className={this.state.isActive[9] ? "fa fa-chevron-up" : "fa fa-chevron-down"} aria-hidden="true"></i>
                         </a>
                         <div id="chineseCollapse">
                           <img src={Chinese} alt="" />
                         </div>
-                        <a className="list-group-item" data-toggle="collapse" href="#japanaseCollapse" aria-expanded="false" aria-controls="japanaseCollapse">日本語
-                          <i className="fa fa-chevron-down" aria-hidden="true"></i>
+                        <a onClick={() => this.toggleState(10)} className="list-group-item" data-toggle="collapse" href="#japanaseCollapse" aria-expanded="false" aria-controls="japanaseCollapse">日本語
+                          <i className={this.state.isActive[10] ? "fa fa-chevron-up" : "fa fa-chevron-down"} aria-hidden="true"></i>
                         </a>
                         <div id="japanaseCollapse">
                           <img src={Japanese} alt="" />
                         </div>
-                        <a className="list-group-item" data-toggle="collapse" href="#russianCollapse" aria-expanded="false" aria-controls="russianCollapse">Руccкий
-                          <i className="fa fa-chevron-down" aria-hidden="true"></i>
+                        <a onClick={() => this.toggleState(11)} className="list-group-item" data-toggle="collapse" href="#russianCollapse" aria-expanded="false" aria-controls="russianCollapse">Руccкий
+                          <i className={this.state.isActive[11] ? "fa fa-chevron-up" : "fa fa-chevron-down"} aria-hidden="true"></i>
                         </a>
                         <div id="russianCollapse">
                           <img src={Russian} alt="" />
