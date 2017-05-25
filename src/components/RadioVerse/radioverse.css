@@ -17,3 +17,9 @@
       padding: 0 16px;
   }
 }
+
+@media screen and (max-width: 768px){
+	.radioverse figure img {
+  	width: 100%;
+  }
+}
