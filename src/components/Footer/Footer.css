@@ -130,7 +130,7 @@ footer .callout-line {
 /*====   Mobile view menu only   ====*/
 /*===================================*/
 
-@media screen and ( max-width: 736px) {
+@media screen and ( max-width: 768px) {
 	footer,
 	footer a {
 		color: #fff;
@@ -219,24 +219,30 @@ footer .callout-line {
 		margin-bottom: 0;
 	}
 
-	footer .global-section .list-group-item,
+	footer .global-section a.list-group-item,
 	footer .language-section .list-group-item {
 		background-color: #375061;
 		color: #fff;
 		border: 0;
-		border-top: 1px solid #323232;
+		margin-top: 1px;
+		border-bottom: 1px solid #323232;
 	}
-
+	
 
 	.footer img {
 		max-width: 100%;
 	}
 
-	#socialCollapse {
+	#socialCollapse,
+	footer .collapsed-image {
 	  overflow: hidden;
 	  clear: both;
 	}
 	
+	.collapsed-image {
+		border-top: 1px solid #323232;
+	}
+
 	footer .bottom-row {
 		padding: 20px;
 	}
@@ -257,7 +263,7 @@ footer .callout-line {
 /*===================================*/
 /*====     Desktop and up        ====*/
 /*===================================*/
-@media screen and ( min-width: 736px) {
+@media screen and ( min-width: 768px) {
 	footer {
 		padding-top: 30px;
 	}
