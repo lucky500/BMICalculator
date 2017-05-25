@@ -1,0 +1,109 @@
+.categories-container{
+  background: #e5f5f8;
+  position: absolute;
+  z-index: 99;
+  width: 100%;
+}
+
+.categories-container .emptybar{
+  background: #009fbd;
+  padding:18px;
+}
+
+.categories-section{
+  width:960px;
+  margin: 0 auto!important;
+}
+
+.categories-list{
+  width: 350px;
+  margin:0;
+  padding:0;
+}
+.categories-list li{
+  list-style: none;
+}
+
+.categories-list li:hover{
+  background: #009FBD;
+}
+
+.categories-list li a{
+  color: #009FBD;
+  padding:5px 10px;
+  width: 100%;
+  display: block;
+  font-size: 12px;
+}
+
+.categories-list li a:hover{
+  color: #ffffff;
+}
+
+.didyouknow{
+  background-color: #009fbd;
+}
+
+.tab-products .tabpane.Product {
+    display: block;
+}
+
+.didyouknow .tabpane {
+    min-height: 67px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    display: table;
+    margin-bottom: 0!important;
+    font-size: 12px;
+}
+
+.didyouknow .tabpane span.header1, .didyouknow .tabpane span.header2 {
+    vertical-align: middle;
+    display: table-cell;
+    float: none;
+    min-width: 240px;
+}
+.didyouknow .tabpane .header1 {
+    color: #fff;
+    font-size: 31px;
+}
+.didyouknow .header1, .didyouknow h1 {
+    border-right: 2px solid #fff;
+}
+.didyouknow .tabpane>p {
+    display: table-cell;
+    padding-right: 48px;
+    vertical-align: middle;
+    float: none;
+    line-height: 16px;
+    height: 37px;
+    color: #fff;
+}
+.tabpane p {
+    margin-bottom: 0;
+    margin-top: 16px;
+}
+.didyouknow p {
+    padding-left: 30px;
+}
+
+.didyouknow .tabpane .tabpane-close {
+    position: absolute;
+    right: 32px;
+    top: 50%;
+    margin-top: -17px;
+    float: none;
+    padding: 0;
+    font-size: 25px;
+}
+
+ .tabpane-close a, .tabpane-close a:hover, .tabpane-close a:visited{
+   color:#ffffff;
+   text-decoration: none!important;
+ }
+
+
+
+ .tabpane.PST {
+     display: none;
+ }
