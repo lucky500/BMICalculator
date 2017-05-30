@@ -1222,7 +1222,29 @@
 			},
 			{
 				"id": "13.d",
-				"name": "Display and Lighting IC"
+				"name": "Display and Lighting IC",
+				"subCategories": [
+					{
+						"id": "13.d.1",
+						"name": "All LED Drivers(Parametric Search)"
+					},
+					{
+						"id": "13.d.2",
+						"name": "Current Sink LED Drivers"
+					},
+					{
+						"id": "13.d.3",
+						"name": "Inductories(Charge Pump) LED Drivers"
+					},
+					{
+						"id": "13.d.4",
+						"name": "LED Flash Drivers"
+					},
+					{
+						"id": "13.d.5",
+						"name": "Step-Up (Boost) LED Drivers"
+					}
+				]
 			},
 			{
 				"id": "13.e",
@@ -1250,32 +1272,729 @@
 			},
 			{
 				"id": "13.l",
-				"name": "Sequencing"
+				"name": "Sequencing",
+				"subCategories": [
+					{
+						"id": "13.l.1",
+						"name": "All Sequencers (Parametric Search)"
+					},
+					{
+						"id": "13.l.2",
+						"name": "Analog Sequencers"
+					},
+					{
+						"id": "13.l.3",
+						"name": "Digital Sequencers"
+					}
+				]
 			},
 			{
 				"id": "13.m",
-				"name": "Supervisory"
+				"name": "Supervisory",
+				"subCategories": [
+					{
+						"id": "13.m.1",
+						"name": "All Supervisors(Parametric Search)"
+					},
+					{
+						"id": "13.m.2",
+						"name": "Battery Backup IC"
+					},
+					{
+						"id": "13.m.3",
+						"name": "Multi-Voltage Monitors"
+					},
+					{
+						"id": "13.m.4",
+						"name": "Simple Rest Supervisory IC"
+					},
+					{
+						"id": "13.m.5",
+						"name": "Watchdog Timers"
+					}
+				]
 			},
 			{
-				"id": "13.m",
-				"name": "Switching Power Convertors"
+				"id": "13.n",
+				"name": "Switching Power Convertors",
+				"subCategories": [
+					{
+						"id": "13.n.1",
+						"name": "Multi-Output Regulators"
+					},
+					{
+						"id": "13.n.2",
+						"name": "Switched Capacitor Convertors"
+					},
+					{
+						"id": "13.n.3",
+						"name": "Switching Controllers"
+					},
+					{
+						"id": "13.n.4",
+						"name": "Switching Regulators"
+					}
+				]
 			}
 		]
 	},
 	{
 		"id": "14",
-		"name": "Processors & DSP"
+		"name": "Processors & DSP",
+		"subCategories": [
+			{
+				"id": "14.a",
+				"name": "All LED DSP Processors(Parametric Search)"
+			},
+			{
+				"id": "14.b",
+				"name": "ADSP-21xx Processors"
+			},
+			{
+				"id": "14.c",
+				"name": "Blackfin Processors"
+			},
+			{
+				"id": "14.d",
+				"name": "Microcontrollers",
+				"subCategories": [
+					{
+						"id": "14.d.1",
+						"name": "8052 Core Products"
+					},
+					{
+						"id": "14.d.2",
+						"name": "ARM7 Core Products"
+					},
+					{
+						"id": "14.d.3",
+						"name": "CM$xx Mixed-Signal Control Processors"
+					},
+					{
+						"id": "14.d.4",
+						"name": " Precision Microcontrollers"
+					},
+					{
+						"id": "14.d.5",
+						"name": "Ultra Low Power Microcontrollers"
+					}
+				]
+			},
+			{
+				"id": "14.e",
+				"name": "SHARC Processors"
+			},
+			{
+				"id": "14.f",
+				"name": "SigmaDSP Audio Processors"
+			},
+			{
+				"id": "14.g",
+				"name": "SigmaDSP Processors for TV"
+			},
+			{
+				"id": "14.h",
+				"name": "TigerSHARC Processors"
+			}
+		]
 	},
 	{
 		"id": "15",
-		"name": "RF & Microwave"
+		"name": "RF & Microwave","subCategories": [
+			{
+				"id": "15.a",
+				"name": "Attenuators",
+				"subCategories": [
+					{
+						"id": "15.a.1",
+						"name": "All Attenuators (Parametric Search)"
+					},
+					{
+						"id": "15.a.2",
+						"name": "Digital Step Attenuators"
+					},
+					{
+						"id": "15.a.3",
+						"name": "Fixed Attenuators"
+					},
+					{
+						"id": "15.a.4",
+						"name": "Voltage Variable Attenuators"
+					}
+				]
+			},
+			{
+				"id": "15.b",
+				"name": "Communcations Analog Front Ends",
+				"subCategories": [
+					{
+						"id": "15.b.1",
+						"name": "IF/RF Receivers"
+					},
+					{
+						"id": "15.b.2",
+						"name": "Mixed-Signal Front Ends(MxFE)"
+					}
+				]
+			},
+			{
+				"id": "15.c",
+				"name": "Direct Digital  Synthesis"
+			},
+			{
+				"id": "15.d",
+				"name": "Frequency Dividers, Multiplexers & Detectors",
+				"subCategories": [
+					{
+						"id": "15.d.1",
+						"name": " ALL Frequency Dividers, Multiplexers & Detectors(Parametric Search)"
+					},
+					{
+						"id": "15.d.2",
+						"name": "Frequency Dividers,Prescalers & Counters"
+					},
+					{
+						"id": "15.d.3",
+						"name": "Frequency Multipliers"
+					},
+					{
+						"id": "15.d.4",
+						"name": "Phase Frequency Detectors"
+					}
+				]
+			},
+			{
+				"id": "15.e",
+				"name": "Integrated Transceivers,Transmitters & Receivers",
+				"subCategories": [
+					{
+						"id": "15.e.1",
+						"name": "All Integrated Transceivers,Transmitters & Receivers(Parametric Search)"
+					},
+					{
+						"id": "15.e.2",
+						"name": "IF/RF Receivers"
+					},
+					{
+						"id": "15.e.3",
+						"name": "IQ Demodulators with Integrated LO"
+					},
+					{
+						"id": "15.e.4",
+						"name": "IQ Modulators with Integrated LO"
+					},
+					{
+						"id": "15.e.5",
+						"name": "Lower Power RF Transceivers"
+					},
+					{
+						"id": "15.e.6",
+						"name": "Microwave and mmWave Tx/Rx"
+					},
+					{
+						"id": "15.e.7",
+						"name": "Mixed Signal Front Ends (MxFE)"
+					},
+					{
+						"id": "15.e.8",
+						"name": "RF Mixers with Integrated LO"
+					},
+					{
+						"id": "15.e.9",
+						"name": "Wideband Transceiver IC"
+					}
+				]
+			},
+			{
+				"id": "15.f",
+				"name": "I/Q Modulators & Demodulators",
+				"subCategories": [
+					{
+						"id": "15.f.1",
+						"name": "All I/Q Modulators & Demodulators(Parametric Search)"
+					},
+					{
+						"id": "15.f.2",
+						"name": "I/Q Demodulators"
+					},
+					{
+						"id": "15.f.3",
+						"name": "IQ Demodulators with Integrated LO"
+					},
+					{
+						"id": "15.f.4",
+						"name": "IQ Modulators"
+					},
+					{
+						"id": "15.f.5",
+						"name": "IQ Modulators with Integrated LO"
+					}
+				]
+			},
+			{
+				"id": "15.g",
+				"name": "Mixers",
+				"subCategories": [
+					{
+						"id": "15.g.1",
+						"name": "All Mixers(Parametric Search)"
+					},
+					{
+						"id": "15.g.2",
+						"name": "I/Q and Image Reject Mixers"
+					},
+					{
+						"id": "15.g.3",
+						"name": "I/Q Downconvertors/Receivers"
+					},
+					{
+						"id": "15.g.4",
+						"name": "I/Q Upconvertors/Receivers"
+					},
+					{
+						"id": "15.g.5",
+						"name": "RF Mixers with Integrated LO"
+					},
+					{
+						"id": "15.g.6",
+						"name": "Single,Double & Triple Balanced Mixers"
+					},
+					{
+						"id": "15.g.7",
+						"name": "Sub-Harmonic-Mixers"
+					}
+				]
+			},
+			{
+				"id": "15.h",
+				"name": "Phase Shifters & Vector Modulators",
+				"subCategories": [
+					{
+						"id": "15.h.1",
+						"name": "All Phase Shifters & Vector Modulator (Parametric Search)"
+					},
+					{
+						"id": "15.h.2",
+						"name": "Analog Phase Shifter"
+					},
+					{
+						"id": "15.h.3",
+						"name": "Digital Phase Shifter"
+					},
+					{
+						"id": "15.h.4",
+						"name": "Vector Modulators"
+					}
+				]
+			},
+			{
+				"id": "15.i",
+				"name": "Phase Locked Loop(PLL)Frequency Synthesis",
+				"subCategories": [
+					{
+						"id": "15.i.1",
+						"name": "All PllS(Parametric Search)"
+					},
+					{
+						"id": "15.i.2",
+						"name": "Fractional-N PLLs"
+					},
+					{
+						"id": "15.i.3",
+						"name": "Integer-N PLLs"
+					},
+					{
+						"id": "15.i.4",
+						"name": "PLLs with Integrated VCOs"
+					}
+				]
+			},
+			{
+				"id": "15.j",
+				"name": "Quadrature Digital Up Convertors(QUDC)"
+			},
+			{
+				"id": "15.k",
+				"name": "RF Amplifiers",
+				"subCategories": [
+					{
+						"id": "15.k.1",
+						"name": "All RF Amplifiers(Parametric Search)"
+					},
+					{
+						"id": "15.k.2",
+						"name": "Driver Amplifiers"
+					},
+					{
+						"id": "15.k.3",
+						"name": "Gain Blocks"
+					},
+					{
+						"id": "15.k.4",
+						"name": "Low Noise Amplifiers"
+					},
+					{
+						"id": "15.k.5",
+						"name": "Fully Diiferential Amplifiers"
+					},
+					{
+						"id": "15.k.6",
+						"name": "Power Amplifiers"
+					},
+					{
+						"id": "15.k.7",
+						"name": "RF Amplifiers Bias Controllers"
+					},
+					{
+						"id": "15.k.8",
+						"name": "Wideband Distributed Amplifiers"
+					}
+				]
+			},
+			{
+				"id": "15.l",
+				"name": "RF Connectorized Modules & Instrumentation",
+				"subCategories": [
+					{
+						"id": "15.l.1",
+						"name": "Attenuators Modules (Parametric Search)"
+					},
+					{
+						"id": "15.l.2",
+						"name": "Block Upconvertor Modules"
+					},
+					{
+						"id": "15.l.3",
+						"name": "DRO/VCO Modules"
+					},
+					{
+						"id": "15.l.4",
+						"name": "MicroSynth Modules"
+					},
+					{
+						"id": "15.l.5",
+						"name": "Mixer Modules"
+					},
+					{
+						"id": "15.l.6",
+						"name": "Phase Shifter Modules"
+					},
+					{
+						"id": "15.l.7",
+						"name": "RF Amplifiers Modules"
+					},
+					{
+						"id": "15.l.8",
+						"name": "RF Frequency Divider,Multiplier & Detector Modules"
+					},
+					{
+						"id": "15.l.9",
+						"name": "RF HighPower Amplifier Modules"
+					},
+					{
+						"id": "15.l.10",
+						"name": "RF Switch Modules "
+					},
+					{
+						"id": "15.l.11",
+						"name": "SDLVA Modules"
+					},
+					{
+						"id": "15.l.12",
+						"name": "Signal Genearators"
+					}
+				]
+			},
+			{
+				"id": "15.m",
+				"name": "RF Power Detectors",
+				"subCategories": [
+					{
+						"id": "15.m.1",
+						"name": "All RF Power Detectors(Parametric Search)"
+					},
+					{
+						"id": "15.m.2",
+						"name": "Envelope/Peak Detectors"
+					},
+					{
+						"id": "15.m.3",
+						"name": "RMS Responding Detector"
+					},
+					{
+						"id": "15.m.4",
+						"name": "non-RMS Responding Detector"
+					},
+					{
+						"id": "15.m.5",
+						"name": "SDLVA"
+					}
+				]
+			},
+			{
+				"id": "15.n",
+				"name": "RF Switches",
+				"subCategories": [
+					{
+						"id": "15.n.1",
+						"name": " All RF Switches(Parametric Search)"
+					},
+					{
+						"id": "15.n.2",
+						"name": "SPDT T/R"
+					},
+					{
+						"id": "15.n.3",
+						"name": "SPST,SPDT,SP3T,SP4T,SP5T,SP6T,SP8T"
+					},
+					{
+						"id": "15.n.4",
+						"name": "Bypass,Diversity,Matrix & Transfer"
+					}
+				]
+			},
+			{
+				"id": "15.o",
+				"name": "Timing ICs & Clocks",
+				"subCategories": [
+					{
+						"id": "15.o.1",
+						"name": "Clock and Data Recovery/Retiming"
+					},
+					{
+						"id": "15.o.2",
+						"name": "Clock Generation & Distribution"
+					}
+				]
+			},
+			{
+				"id": "15.p",
+				"name": "Tunable Filters",
+				"subCategories": [
+					{
+						"id": "15.p.1",
+						"name": "Baseband Programmable VGA-Filters"
+					},
+					{
+						"id": "15.p.2",
+						"name": "All Tunable Filters"
+					},
+					{
+						"id": "15.p.3",
+						"name": "Low Pass and Harmonic"
+					}
+				]
+			},
+			{
+				"id": "15.q",
+				"name": "Variable Gain Amplifiers",
+				"subCategories": [
+					{
+						"id": "15.q.1",
+						"name": "All VGAs(Parametric Search)"
+					},
+					{
+						"id": "15.q.2",
+						"name": "Baseband Programmable VGA-Filters"
+					},
+					{
+						"id": "15.q.3",
+						"name": "Digital Control VGAs"
+					},
+					{
+						"id": "15.q.4",
+						"name": "Analog Control VGAs"
+					}
+				]
+			},
+			{
+				"id": "15.q",
+				"name": "VCOs & PLOs",
+				"subCategories": [
+					{
+						"id": "15.q.1",
+						"name": "All VCOs(Parametric Search)"
+					},
+					{
+						"id": "15.q.2",
+						"name": "VCOs with Output Dividers"
+					},
+					{
+						"id": "15.q.3",
+						"name": "VCOs with Single Output"
+					},
+					{
+						"id": "15.q.4",
+						"name": "Wideband VCOs"
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "16",
-		"name": "Sensors"
-	},
+		"name": "Sensors",
+			"subCategories": [
+				{
+					"id": "16.a",
+					"name": "Accelerometers"
+				},
+				{
+					"id": "16.b",
+					"name": "Accelerometers-Special Purpose"
+				},
+				{
+					"id": "16.c",
+					"name": "Gyroscopes"
+				},
+				{
+					"id": "16.d",
+					"name": "Initial Measurement Units(IMU)"
+				},
+				{
+					"id": "16.e",
+					"name": "Magnetic Field Sensors"
+				},
+				{
+					"id": "16.f",
+					"name": "Optical Sensing Devices",
+					"subCategories": [
+						{
+							"id": "16.f.1",
+							"name": "Optical Mixed Signal Devices"
+						},
+						{
+							"id": "16.f.2",
+							"name": "Optical Sensors"
+						}
+					]
+				},
+				{
+					"id": "16.g",
+					"name": "Temperature Sensor & Control Devices",
+					"subCategories": [
+						{
+							"id": "16.g.1",
+							"name": "All Temperature Sensor & Control Devices(Parametric Search)"
+						},
+						{
+							"id": "16.g.2",
+							"name": "Analog Temperature Sensors"
+						},
+						{
+							"id": "16.g.3",
+							"name": "Digital Temperature Sensors"
+						},
+						{
+							"id": "16.g.4",
+							"name": "Temperature Switches"
+						}
+					]
+				 }
+			]
+		},
 	{
 		"id": "17",
-		"name": "Switches & Multiplexers"
-	}
+		"name": "Switches & Multiplexers",
+	  "subCategories": [
+					{
+						"id": "17.a",
+						"name": "Analog Switches and Multiplexers",
+						"subCategories": [
+							{
+								"id": "17.a.1",
+								"name": "All Analog Switches and Multiplexers & Control Devices(Parametric Search)"
+							},
+							{
+								"id": "17.a.2",
+								"name": "Dual Supply 2.5V"
+							},
+							{
+								"id": "17.a.3",
+								"name": "Dual Supply 2V to 8V"
+							},
+							{
+								"id": "17.a.4",
+								"name": "Dual Supply 5V to 22V"
+							},
+							{
+								"id": "17.a.5",
+								"name": "Single Supply 1.65V to 16V"
+							},
+							{
+								"id": "17.a.7",
+								"name": "Single Supply 2V to 16V"
+							},
+							{
+								"id": "17.a.8",
+								"name": "Single Supply 5V to 44V"
+							}
+						]
+					},
+					{
+						"id": "17.b",
+						"name": "Buffered Crosspoint  Analog Switches"
+					},
+					{
+						"id": "17.c",
+						"name": "Buffered Analog Multiplexers"
+					},
+					{
+						"id": "17.d",
+						"name": "Digital Crosspoint Switches"
+					},
+					{
+						"id": "17.e",
+						"name": "Fault Protected Switches & Multiplexers",
+						"subCategories": [
+							{
+								"id": "17.e.1",
+								"name": "All Fault Protected Switches & Multiplexers (Parametric Search)"
+							},
+							{
+								"id": "17.e.2",
+								"name": "Latch Up Immune and High ESD"
+							},
+							{
+								"id": "17.e.3",
+								"name": "Over Voltage Protection"
+							},
+							{
+								"id": "17.e.4",
+								"name": "Over Voltage Protection & Detection"
+							}
+						]
+					},
+					{
+						"id": "17.f",
+						"name": "Level Translators"
+					},
+				{
+						"id": "17.g",
+						"name": "RF Switches",
+						"subCategories": [
+							{
+								"id": "17.g.1",
+								"name": "All RF Switches(Parametric Search)"
+							},
+							{
+								"id": "17.g.2",
+								"name": "Bypass,Diveristy,Matrix,Transfer"
+							},
+							{
+								"id": "17.g.3",
+								"name": "SPDT T/R"
+							},
+							{
+								"id": "17.g.4",
+								"name": "SPST,SPDT,SP3T,SP4T,SP5T,SP6T,SP8T"
+							}
+						 ]
+					},
+				{
+						"id": "17.h",
+						"name": "Unbuffered Analog Crosspoint Array"
+				}
+			]
+		}
 ]
