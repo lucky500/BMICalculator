@@ -1,0 +1,30 @@
+ .bottomnav{
+  position:relative;
+}
+
+.navbar-nav .products.active>a, .navbar-nav .products>a:hover{
+  background-color: #009fbd!important;
+  color:#ffffff;
+}
+
+.navbar-nav>li.active>a:before {
+    content: '';
+    position: absolute;
+    top: 0px;
+    left: 1px;
+    display: block;
+    height: 0;
+    width: 100%;
+    border-bottom: 7px solid #656565;
+    border-right: 7px solid #ffffff;
+    z-index: 9999;
+}
+
+.navbar-nav>li.products>a:before {
+   border-bottom-color: #009fbd;
+}
+
+.nav > li > a:focus {
+    text-decoration: none;
+    background-color: #ffffff!important;
+}

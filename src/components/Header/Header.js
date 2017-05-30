@@ -2,6 +2,7 @@ import React from 'react';
 import TopHeader from './TopHeader';
 import MidHeader from './MidHeader';
 import BottomHeader from './BottomHeader';
+import './Header.css';
 //import { NavDropdown, MenuItem } from 'react-bootstrap';
 
 class Header extends React.Component {
