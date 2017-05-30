@@ -6,7 +6,7 @@ class Categories extends React.Component{
   constructor(props){
     super(props);
     this.state = {
-      Categories:CategoriesData,
+      Categories:CategoriesData.products,
       show:this.props.show,
       categoryLevel:0,
       activeCategories:{}
@@ -77,33 +77,63 @@ class Categories extends React.Component{
 
   render(){
     return (
-      <div className="categories-container" style={{'display':!this.state.show?'none':'block'}}>
-        <div className="emptybar">
-        </div>
-        <div className="categories-section">
-          <div className="row">
-            <div className="col-md-12">
-              <div className="list-container">
-                <div className="header"><span className="header2">Categories</span></div>
-                {this.renderCategories(this.state.Categories, this.state.categoryLevel)}
+      <div>
+       <div className="categories-container" style={{'display':!this.state.show?'none':'block'}}>
+          <div className="emptybar">
+          </div>
+          <div className="categories-section">
+            <div className="row">
+              <div className="col-md-12">
+                <div className="list-container">
+                  <div className="header"><span className="header2">Categories</span></div>
+                  {this.renderCategories(this.state.Categories, this.state.categoryLevel)}
+                </div>
               </div>
             </div>
           </div>
-        </div>
-          <div className="didyouknow">
-          <div className="row categories-section">
-            <div className="col-md-12">
-              <div className="tabpane rte Product">
-                <span className="header1">Did you know?</span>
-                <p>ADI holds over 2200 patents, nearly 800 patents pending and has invested over $9 billion in signal processing R&amp;D over the past 50 years.</p>
-                <span className="tabpane-close" onClick={this.hideCategories}><a href="#" className="glyphicon glyphicon-chevron-up"></a></span>
+            <div className="didyouknow">
+            <div className="row categories-section">
+              <div className="col-md-12">
+                <div className="tabpane rte Product">
+                  <span className="header1">Did you know?</span>
+                  <p>ADI holds over 2200 patents, nearly 800 patents pending and has invested over $9 billion in signal processing R&amp;D over the past 50 years.</p>
+                  <span className="tabpane-close" onClick={this.hideCategories}><a href="#" className="glyphicon glyphicon-chevron-up"></a></span>
+                </div>
+                <div className="tabpane rte PST">
+                  <span className="tabpane-close"><a href="#" className="glyphicon glyphicon-chevron-down"></a></span>
+                </div>
               </div>
-              <div className="tabpane rte PST">
-                <span className="tabpane-close"><a href="#" className="glyphicon glyphicon-chevron-down"></a></span>
+            </div>
+            </div>
+        </div> 
+        <div className="categories-container" style={{'display':!this.state.show?'none':'block'}}>
+          <div className="emptybar">
+          </div>
+          <div className="categories-section">
+            <div className="row">
+              <div className="col-md-12">
+                <div className="list-container">
+                  <div className="header"><span className="header2">Categories</span></div>
+                  {this.renderCategories(this.state.Categories, this.state.categoryLevel)}
+                </div>
               </div>
             </div>
           </div>
-          </div>
+            <div className="didyouknow">
+            <div className="row categories-section">
+              <div className="col-md-12">
+                <div className="tabpane rte Product">
+                  <span className="header1">Did you know?</span>
+                  <p>ADI holds over 2200 patents, nearly 800 patents pending and has invested over $9 billion in signal processing R&amp;D over the past 50 years.</p>
+                  <span className="tabpane-close" onClick={this.hideCategories}><a href="#" className="glyphicon glyphicon-chevron-up"></a></span>
+                </div>
+                <div className="tabpane rte PST">
+                  <span className="tabpane-close"><a href="#" className="glyphicon glyphicon-chevron-down"></a></span>
+                </div>
+              </div>
+            </div>
+            </div>
+        </div>
       </div>
     );
   }
