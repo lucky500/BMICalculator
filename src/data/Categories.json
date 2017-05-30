@@ -1,0 +1,1281 @@
+[
+	{
+		"id": "1",
+		"name": "Amplifiers",
+		"link": "",
+		"subCategories": [
+			{
+				"id": "1a",
+				"name": "ADC Dividers",
+				"subCategories": [
+					{
+						"id": "1.a.1",
+						"name": "Fully Differential Amplifiers"
+					},
+					{
+						"id": "1.a.2",
+						"name": "Single-Ended Amplifiers (Op-Amp)"
+					},
+					{
+						"id": "1.a.3",
+						"name": "Single-Ended to Differential Amplifiers"
+					}
+				]
+			},
+			{
+				"id": "1b",
+				"name": "Differential Amplifiers",
+				"subCategories": [
+					{
+						"id": "1.b.1",
+						"name": "FUlly Differential Amplifiers"
+					},
+					{
+						"id": "1.b.2",
+						"name": "Single-Ended to Differential Amplifiers"
+					}
+				]
+			},
+			{
+				"id": "1c",
+				"name": "Instrumentation  Amplifiers"
+			},
+			{
+				"id": "1d",
+				"name": "Isolation Amplifiers"
+			},
+			{
+				"id": "1e",
+				"name": "Operational Amplifiers (Op-Amps)",
+				"subCategories": [
+					{
+						"id": "1.e.1",
+						"name": "All Op Amps (Parametric Search)"
+					},
+					{
+						"id": "1.e.2",
+						"name": "Current Feedback Amplifiers"
+					},
+					{
+						"id": "1.e.3",
+						"name": "General Purpose Amplifiers"
+					},
+					{
+						"id": "1.e.4",
+						"name": "High Output Current Amplifiers >100mA "
+					},
+					{
+						"id": "1.e.5",
+						"name": "High Speed Amplifiers(Bandwidth > 50MHz)"
+					},
+					{
+						"id": "1.e.6",
+						"name": "High Voltage Amplifiers >12V"
+					},
+					{
+						"id": "1.e.7",
+						"name": "JFET Input Amplifiers"
+					},
+					{
+						"id": "1.e.8",
+						"name": "Low Input Bias Current  Amplifiers(<100pA)"
+					},
+					{
+						"id": "1.e.9",
+						"name": "Low Noise Amplifiers(< 10nV/Hz)"
+					},
+					{
+						"id": "1.e.10",
+						"name": "Low Power Amplifiers(< 1mA/amp)"
+					},
+					{
+						"id": "1.e.11",
+						"name": "Low Voltage Amplifiers(<6v)"
+					},
+					{
+						"id": "1.e.12",
+						"name": "Precision Amplifiers (Vos<1mV & TCVos<2uV/C)"
+					},
+					{
+						"id": "1.e.13",
+						"name": "Rail-to-Rail Amplifiers"
+					},
+					{
+						"id": "1.e.14",
+						"name": "Zero Drift Amplifiers"
+					}
+				]
+			},
+			{
+				"id": "1f",
+				"name": "RF Amplifiers",
+				"subCategories": [
+					{
+						"id": "1.f.1",
+						"name": "All RF Amplifiers (Parametric Search)"
+					},
+					{
+						"id": "1.f.2",
+						"name": "Driver Amplifiers"
+					},
+					{
+						"id": "1.f.3",
+						"name": "Fully Differential Amplifiers"
+					},
+					{
+						"id": "1.f.4",
+						"name": "Gain Blocks "
+					},
+					{
+						"id": "1.f.5",
+						"name": "Low Noise Amplifiers"
+					},
+					{
+						"id": "1.f.6",
+						"name": "Power Amplifiers"
+					},
+					{
+						"id": "1.f.7",
+						"name": "RF Amplifiers Bias Controllers"
+					},
+					{
+						"id": "1.f.8",
+						"name": "Wideband Distributed Amplifiers"
+					}
+				]
+			},
+			{
+				"id": "1g",
+				"name": "RF Power Detectors",
+				"subCategories": [
+					{
+						"id": "1.g.1",
+						"name": "All RF Power Detectors (Parametric Search)"
+					},
+					{
+						"id": "1.g.2",
+						"name": "non-RMS Responding Power Detectors"
+					},
+					{
+						"id": "1.g.3",
+						"name": "Rms Responding Power Detectors "
+					},
+					{
+						"id": "1.g.4",
+						"name": "Translinear Logarithmic Amplifiers "
+					}
+				]
+			},
+			{
+				"id": "1h",
+				"name": "Speciality Amplifiers",
+				"subCategories": [
+					{
+						"id": "1.h.1",
+						"name": "CATV Line Drivers"
+					},
+					{
+						"id": "1.h.2",
+						"name": "Charge Integrators Amplifiers"
+					},
+					{
+						"id": "1.h.3",
+						"name": "current Sense Amplifiers"
+					},
+					{
+						"id": "1.h.4",
+						"name": "Difference Amplifiers "
+					},
+					{
+						"id": "1.h.5",
+						"name": "Industrial 4-20mA Driver"
+					},
+					{
+						"id": "1.h.6",
+						"name": "LVDT Sensor Amplifiers"
+					},
+					{
+						"id": "1.h.7",
+						"name": "non-RMS Responding Power Detectors"
+					},
+					{
+						"id": "1.h.8",
+						"name": "Opticial Transimpedance Amplifiers"
+					},
+					{
+						"id": "1.h.9",
+						"name": "Photo Detector with Integrated Transimpedance Amplifier"
+					},
+					{
+						"id": "1.h.10",
+						"name": "Power Monitors"
+					},
+					{
+						"id": "1.h.11",
+						"name": "Sample/Track and Hold Amplifiers"
+					},
+					{
+						"id": "1.h.12",
+						"name": "Thermocouple Interface Amplifiers"
+					},
+					{
+						"id": "1.h.13",
+						"name": "Video RF Splitters"
+					},
+					{
+						"id": "1.h.14",
+						"name": "xDSL Line Drivers"
+					}
+				]
+			},
+			{
+				"id": "1i",
+				"name": "Variable Gain Amplifiers",
+				"subCategories": [
+					{
+						"id": "1.i.1",
+						"name": "All VGAs (Parametric Search)"
+					},
+					{
+						"id": "1.i.2",
+						"name": "Analog Control VGAs"
+					},
+					{
+						"id": "1.i.3",
+						"name": "Baseband Programmable VGA-Filters"
+					},
+					{
+						"id": "1.i.4",
+						"name": "Digital Control VGAs "
+					}
+				]
+			},
+			{
+				"id": "1j",
+				"name": "Video Amplifiers & Anlog Video Functions",
+				"subCategories": [
+					{
+						"id": "1.j.1",
+						"name": "Analog Input Encoders"
+					},
+					{
+						"id": "1.j.2",
+						"name": "Buffered Analog Crosspoint Switches"
+					},
+					{
+						"id": "1.j.3",
+						"name": "Buffered Analog Multiplexers"
+					},
+					{
+						"id": "1.j.4",
+						"name": "CAT-5 Cable Equalizers "
+					},
+					{
+						"id": "1.j.5",
+						"name": "CAT-5 Video Drivers"
+					},
+					{
+						"id": "1.j.6",
+						"name": "CAT-5 Video Receivers"
+					},
+					{
+						"id": "1.j.7",
+						"name": "CAT-5 Video Variable Filters"
+					},
+					{
+						"id": "1.j.8",
+						"name": "Video Buffers"
+					},
+					{
+						"id": "1.j.9",
+						"name": "Video Op Amps"
+					},
+					{
+						"id": "1.j.10",
+						"name": "Video RF Splitters"
+					}
+				]
+			}
+		]
+	},
+	{
+		"name": "A/D Converters",
+		"link": "",
+		"subCategories": [
+			{
+				"id": "2a",
+				"name": "A/D Converters (Parametric Search)"
+			},
+			{
+				"id": "2b",
+				"name": "High Speed ADC > 10MSPS"
+			},
+			{
+				"id": "2c",
+				"name": "Integrated/Special Purpose Converters",
+				"subCategories": [
+					{
+						"id": "2.c.1",
+						"name": "Audio CODECS"
+					},
+					{
+						"id": "2.c.2",
+						"name": "Capacitive to DIgital and Touch Screen Controllers"
+					},
+					{
+						"id": "2.c.3",
+						"name": "Digital Temperature Sensors"
+					},
+					{
+						"id": "2.c.4",
+						"name": "Energy Metering ICs"
+					},
+					{
+						"id": "2.c.5",
+						"name": "IF/RF Receivers"
+					},
+					{
+						"id": "2.c.6",
+						"name": "Mixed signal Front Ends (MxFE)"
+					},
+					{
+						"id": "2.c.7",
+						"name": "Quadrature Digital Up Convertors (QUDC)"
+					},
+					{
+						"id": "2.c.8",
+						"name": "Resistive Touch Controllers"
+					},
+					{
+						"id": "2.c.9",
+						"name": "Synchro/Resolver to Digital Convertors"
+					},
+					{
+						"id": "2.c.10",
+						"name": "Video CODECs"
+					},
+					{
+						"id": "2.c.11",
+						"name": "Voltage to Frequency Convertors"
+					}
+				]
+			},
+			{
+				"id": "2d",
+				"name": "Precision ADC < 10MSPS",
+				"subCategories": [
+					{
+						"id": "2.d.1",
+						"name": "All Precision ADC <10MSPS (Parametric Search)"
+					},
+					{
+						"id": "2.d.2",
+						"name": "A/D & D/A Convertor Combinations"
+					},
+					{
+						"id": "2.d.3",
+						"name": "Isolated A/D Convertors"
+					},
+					{
+						"id": "2.d.4",
+						"name": "Multi Channel A/D Convertors "
+					},
+					{
+						"id": "2.d.5",
+						"name": "Simultaneous Sampling A/D Convertors"
+					},
+					{
+						"id": "2.d.6",
+						"name": "Single Channel A/D Convertors"
+					}
+				]
+			}
+		]
+	},
+	{
+		"id": "3",
+		"name": "Application Specific",
+		"subCategories": [
+			{
+				"id": "3.a",
+				"name": "Automatic Test Equipment",
+				"subCategories": [
+					{
+						"id": "3.a.1",
+						"name": "DPS & PMU"
+					},
+					{
+						"id": "3.a.2",
+						"name": "Pin Drivers"
+					}
+				]
+			},
+			{
+				"id": "3.b",
+				"name": "A/D & D/A Convertor Combinations",
+				"subCategories": [
+					{
+						"id": "3.b.1",
+						"name": "Automotive"
+					}
+				]
+			},
+			{
+				"id": "3.c",
+				"name": "Industrial",
+				"subCategories": [
+					{
+						"id": "3.c.1",
+						"name": "A/D & D/A Convertor Combinations"
+					},
+					{
+						"id": "3.c.2",
+						"name": "Industrial Battery Manfacturing"
+					}
+				]
+			},
+			{
+				"id": "3.e",
+				"name": "Medical ",
+				"subCategories": [
+					{
+						"id": "3.e.1",
+						"name": "Computer Tornography(CT)"
+					},
+					{
+						"id": "3.e.2",
+						"name": "DIgital XRay"
+					},
+					{
+						"id": "3.e.3",
+						"name": "ECG"
+					},
+					{
+						"id": "3.e.4",
+						"name": "HealthCare Meter-on-a-Chip "
+					},
+					{
+						"id": "3.e.5",
+						"name": "Ultra Sound"
+					}
+				]
+			},
+			{
+				"id": "3.f",
+				"name": "Miltary/Aerospace",
+				"subCategories": [
+					{
+						"id": "3.f.1",
+						"name": "Aerospace"
+					},
+					{
+						"id": "3.f.2",
+						"name": "Miltary"
+					}
+				]
+			},
+			{
+				"id": "3.g",
+				"name": "Multi-Chip"
+			}
+		]
+	},
+	{
+		"id": "4",
+		"name": "Audio & Video Products",
+		"subCategories": [
+			{
+				"id": "4.a",
+				"name": "Analog/HDMI/DVI Interfaces",
+				"subCategories": [
+					{
+						"id": "4.a.1",
+						"name": " All HDMI/DVI Interfaces Devices (Parametric Search)"
+					},
+					{
+						"id": "4.a.2",
+						"name": "Analog HDMI/DVI Display Interfaces"
+					},
+					{
+						"id": "4.a.3",
+						"name": "HDMI/DVI Switches"
+					},
+					{
+						"id": "4.a.4",
+						"name": "HDMI/DVI Transmitters"
+					},
+					{
+						"id": "4.a.5",
+						"name": "HDMI/DVI Transceivers"
+					},
+					{
+						"id": "4.a.6",
+						"name": "HDMI/DVI Receivers"
+					}
+				]
+			},
+			{
+				"id": "4.b",
+				"name": "Audio A/D Convertors"
+			},
+			{
+				"id": "4.c",
+				"name": "Audio Amplifiers",
+				"subCategories": [
+					{
+						"id": "4.c.1",
+						"name": " All Audio Amplifiers (Parametric Search)"
+					},
+					{
+						"id": "4.c.2",
+						"name": "AudioLine Drivers And Receivers"
+					},
+					{
+						"id": "4.c.3",
+						"name": "Class-D Audio Amplifiers"
+					},
+					{
+						"id": "4.c.4",
+						"name": "Mic/Pre-Amp Audio Products"
+					}
+				]
+			},
+			{
+				"id": "4.d",
+				"name": "Audio CODECs"
+			},
+			{
+				"id": "4.e",
+				"name": "Audio D/A Convertors"
+			},
+			{
+				"id": "4.f",
+				"name": "Audio Signal Processors",
+				"subCategories": [
+					{
+						"id": "4.f.1",
+						"name": " All Audio Signal Processors (Parametric Search)"
+					},
+					{
+						"id": "4.f.2",
+						"name": "Blackfin Processors"
+					},
+					{
+						"id": "4.f.3",
+						"name": "SHARC Processors"
+					},
+					{
+						"id": "4.f.4",
+						"name": "SignalDSP Audio Processors"
+					},
+					{
+						"id": "4.f.5",
+						"name": "SignalDSP Processors for TV"
+					}
+				]
+			},
+			{
+				"id": "4.g",
+				"name": "Automotive Audio Bus@"
+			},
+			{
+				"id": "4.h",
+				"name": "Camera/Camcorder Analog Front Ends"
+			},
+			{
+				"id": "4.i",
+				"name": "Display Driver Electronics",
+				"subCategories": [
+					{
+						"id": "4.i.1",
+						"name": "Analog LCD Display Drivers"
+					},
+					{
+						"id": "4.i.2",
+						"name": "Digital LCD Display Drivers"
+					}
+				]
+			},
+			{
+				"id": "4.j",
+				"name": "Lens Driver Components"
+			},
+			{
+				"id": "4.k",
+				"name": "Sample Rate Convertors"
+			},
+			{
+				"id": "4.l",
+				"name": "Video Amplifiers & Analog Video Functions",
+				"subCategories": [
+					{
+						"id": "4.l.1",
+						"name": "Analog Input Encoders"
+					},
+					{
+						"id": "4.l.2",
+						"name": "Buffered Analog Crosspoint Switches"
+					},
+					{
+						"id": "4.l.3",
+						"name": "Buffered Analog Multiplexers"
+					},
+					{
+						"id": "4.l.4",
+						"name": "CAT-5 Cable Equalizers "
+					},
+					{
+						"id": "4.l.5",
+						"name": "CAT-5 Video Drivers"
+					},
+					{
+						"id": "4.l.6",
+						"name": "CAT-5 Video Receivers"
+					},
+					{
+						"id": "4.l.7",
+						"name": "CAT-5 Video Variable Filters"
+					},
+					{
+						"id": "4.l.8",
+						"name": "Video Buffers"
+					},
+					{
+						"id": "4.l.9",
+						"name": "Video Op Amps"
+					},
+					{
+						"id": "4.l.10",
+						"name": "Video RF Splitters"
+					}
+				]
+			},
+			{
+				"id": "4.m",
+				"name": "Video CODECs"
+			},
+			{
+				"id": "4.n",
+				"name": "Video Compression"
+			},
+			{
+				"id": "4.o",
+				"name": "Video Decoders"
+			},
+			{
+				"id": "4.p",
+				"name": "Video Encoders",
+				"subCategories": [
+					{
+						"id": "4.p.1",
+						"name": "Analog Input Encoders"
+					},
+					{
+						"id": "4.p.2",
+						"name": "Video D/A Encoders"
+					}
+				]
+			}
+		]
+	},
+	{
+		"id": "5",
+		"name": "Broadband",
+		"subCategories": [
+			{
+				"id": "5.a",
+				"name": "Broadband Amplifiers",
+				"subCategories": [
+					{
+						"id": "5.a.1",
+						"name": "CATV Line Drivers"
+					},
+					{
+						"id": "5.a.2",
+						"name": "xDSL Line Drivers"
+					}
+				]
+			},
+			{
+				"id": "5.b",
+				"name": "Clock and Data Recovery/Retiming"
+			},
+			{
+				"id": "5.c",
+				"name": "Digital Crosspoint Switches"
+			},
+			{
+				"id": "5.d",
+				"name": "IF/RF Receivers"
+			},
+			{
+				"id": "5.e",
+				"name": "Mixed Signal Front Ends (MxFE)"
+			},
+			{
+				"id": "5.f",
+				"name": "Video RF Splitters"
+			}
+		]
+	},
+	{
+		"id": "6",
+		"name": "Clock & Timing",
+		"subCategories": [
+			{
+				"id": "6.a",
+				"name": "Clock Generation & Distribution",
+				"subCategories": [
+					{
+						"id": "6.a.1",
+						"name": " All Clock Generation & Distribution (Parametric Search)"
+					},
+					{
+						"id": "6.a.2",
+						"name": "Clock Distribution Devices"
+					},
+					{
+						"id": "6.a.3",
+						"name": "Clock Dividers"
+					},
+					{
+						"id": "6.a.4",
+						"name": "Clock Generation Devices"
+					},
+					{
+						"id": "6.a.5",
+						"name": "Signal Generators"
+					},
+					{
+						"id": "6.a.6",
+						"name": "Time Delays"
+					}
+				]
+			},
+			{
+				"id": "6.b",
+				"name": "Direct Digital Synthesis"
+			},
+			{
+				"id": "6.c",
+				"name": "Phase Locked Loop(PLL)",
+				"subCategories": [
+					{
+						"id": "6.c.1",
+						"name": " All PLLs (Parametric Search)"
+					},
+					{
+						"id": "6.c.2",
+						"name": "Fractional-N PLLs"
+					},
+					{
+						"id": "6.c.3",
+						"name": "Integer-N PLLs"
+					},
+					{
+						"id": "6.c.4",
+						"name": "PLLs with Integrated VCDs"
+					}
+				]
+			}
+		]
+	},
+	{
+		"id": "7",
+		"name": "D/A Converters",
+		"subCategories": [
+			{
+				"id": "7.a",
+				"name": "All D/A Convertors (Parametric Search)"
+			},
+			{
+				"id": "7.b",
+				"name": "Digital Potentiometers"
+			},
+			{
+				"id": "7.c",
+				"name": "Highspeed DAC > 30MSPS"
+			},
+			{
+				"id": "7.d",
+				"name": "Precision DAC",
+				"subCategories": [
+					{
+						"id": "7.d.1",
+						"name": " Precision DAC (Parametric Search)"
+					},
+					{
+						"id": "7.d.2",
+						"name": "A/D & D/A Convertor Combinations"
+					},
+					{
+						"id": "7.d.3",
+						"name": "Bipolar D/A Convertors"
+					},
+					{
+						"id": "7.d.4",
+						"name": "High Voltage D/A Convertors (>=20V)"
+					},
+					{
+						"id": "7.d.5",
+						"name": "Industrial 4-20mA DAC Solution"
+					},
+					{
+						"id": "7.d.6",
+						"name": "Unipolar D/A Convertors"
+					}
+				]
+			}
+		]
+	},
+	{
+		"id": "8",
+		"name": "High Speed Logic & Data Path Management",
+		"subCategories": [
+			{
+				"id": "8.a",
+				"name": "Data Path Management",
+				"subCategories": [
+					{
+						"id": "8.a.1",
+						"name": "Data Path SIgnal Conditioners"
+					},
+					{
+						"id": "8.a.2",
+						"name": "Digital Crosspoint Switches"
+					},
+					{
+						"id": "8.a.3",
+						"name": "Level Translators"
+					},
+					{
+						"id": "8.a.4",
+						"name": "Serializer/Deserializer & Selector Muxes"
+					},
+					{
+						"id": "8.a.5",
+						"name": "Track and Hold Data"
+					}
+				]
+			},
+			{
+				"id": "8.b",
+				"name": "Logic Devices",
+				"subCategories": [
+					{
+						"id": "8.b.1",
+						"name": "All Logic Devices(Parametric Search)"
+					},
+					{
+						"id": "8.b.2",
+						"name": "Fanout Buffers"
+					},
+					{
+						"id": "8.b.3",
+						"name": "Flip-Flops"
+					},
+					{
+						"id": "8.b.4",
+						"name": "Logic Gates"
+					},
+					{
+						"id": "8.b.5",
+						"name": "NRZ to RZ Converters"
+					}
+				]
+			}
+		]
+	},
+	{
+		"id": "9",
+		"name": "Interface & Isolation",
+		"subCategories": [
+			{
+				"id": "9.a",
+				"name": "Autotmotive Interfaces(CAM Audio)",
+				"subCategories": [
+					{
+						"id": "9.a.1",
+						"name": "Autotmotive Audio Bus"
+					},
+					{
+						"id": "9.a.2",
+						"name": "Isolated Controller Area Network(CAN)"
+					},
+					{
+						"id": "9.a.3",
+						"name": "non-Isolated Controller Area Network(CAN)"
+					}
+				]
+			},
+			{
+				"id": "9.b",
+				"name": "HART & 4-20mA Loop Interfaces Devices",
+				"subCategories": [
+					{
+						"id": "9.b.1",
+						"name": "HART Modem"
+					},
+					{
+						"id": "9.b.2",
+						"name": "Industrial 4-20mA DAC Solution"
+					},
+					{
+						"id": "9.b.3",
+						"name": "Industrial 4-20mA Driver"
+					}
+				]
+			},
+			{
+				"id": "9.c",
+				"name": "IOS SubSystems"
+			},
+			{
+				"id": "9.d",
+				"name": "Isolation",
+				"subCategories": [
+					{
+						"id": "9.d.1",
+						"name": "Isolated A/D Convertors"
+					},
+					{
+						"id": "9.d.2",
+						"name": "Isolated Controller Area Network(CAN)"
+					},
+					{
+						"id": "9.d.3",
+						"name": "Isolated Gate Drivers"
+					},
+					{
+						"id": "9.d.4",
+						"name": "Isolated I2C Drivers"
+					},
+					{
+						"id": "9.d.5",
+						"name": "Isolated LVDS"
+					},
+					{
+						"id": "9.d.6",
+						"name": "Isolated RS-232"
+					},
+					{
+						"id": "9.d.7",
+						"name": "Isolated RS-485"
+					},
+					{
+						"id": "9.d.8",
+						"name": "Isolated SPI"
+					},
+					{
+						"id": "9.d.9",
+						"name": "IsoPower"
+					},
+					{
+						"id": "9.d.10",
+						"name": "Isolation Amplifiers"
+					},
+					{
+						"id": "9.d.11",
+						"name": "Standard Digital Isolators"
+					},
+					{
+						"id": "9.d.12",
+						"name": "USB Isolators"
+					}
+				]
+			},
+			{
+				"id": "9.e",
+				"name": "Level Translators"
+			},
+			{
+				"id": "9.f",
+				"name": "LVDS/MLVDS",
+				"subCategories": [
+					{
+						"id": "9.f.1",
+						"name": "Isolated LVDS"
+					},
+					{
+						"id": "9.f.2",
+						"name": "Low Voltage Differential Signaling(LVDS) Drivers-Receivers"
+					},
+					{
+						"id": "9.f.3",
+						"name": "Multi-point Low Voltage Differential Signaling(M-LVDS)"
+					}
+				]
+			},
+			{
+				"id": "9.g",
+				"name": "Mobile I/O Expander & Keypad Controller"
+			},
+			{
+				"id": "9.h",
+				"name": "RS-232/RS-422/RS-485",
+				"subCategories": [
+					{
+						"id": "9.h.1",
+						"name": "Interface RS-232"
+					},
+					{
+						"id": "9.h.2",
+						"name": "Interface RS-485 and RS-422"
+					},
+					{
+						"id": "9.h.3",
+						"name": "Isolated RS-232"
+					},
+					{
+						"id": "9.h.3",
+						"name": "Isolated RS-485"
+					}
+				]
+			}
+		]
+	},
+	{
+		"id": "10",
+		"name": "Linear Products",
+		"subCategories": [
+			{
+				"id": "10.a",
+				"name": "Analog Multiplexers & Dividers"
+			},
+			{
+				"id": "10.b",
+				"name": "Comparators",
+				"subCategories": [
+					{
+						"id": "10.b.1",
+						"name": "All Comparators (Parametric Search)"
+					},
+					{
+						"id": "10.b.2",
+						"name": "High Speed Comparators (<100ns propagation Delay)"
+					},
+					{
+						"id": "10.b.3",
+						"name": "Low Power Comparators"
+					}
+				]
+			},
+			{
+				"id": "10.c",
+				"name": "Current Mirrors"
+			},
+			{
+				"id": "10.d",
+				"name": "Isolation Amplifiers"
+			},
+			{
+				"id": "10.e",
+				"name": "Matched Transistors"
+			},
+			{
+				"id": "10.f",
+				"name": "Precision Modulators/Demodulators"
+			},
+			{
+				"id": "10.g",
+				"name": "RMS to DC Convertors"
+			},
+			{
+				"id": "10.h",
+				"name": "Volatage References"
+			}
+		]
+	},
+	{
+		"id": "11",
+		"name": "MEMS",
+		"subCategories": [
+			{
+				"id": "11.a",
+				"name": "Accelerometers"
+			},
+			{
+				"id": "11.b",
+				"name": "Accelerometers-Special Purpose"
+			},
+			{
+				"id": "11.c",
+				"name": "Gyroscopes"
+			},
+			{
+				"id": "11.c",
+				"name": "Initial Measurement Units(IMU)"
+			}
+		]
+	},
+	{
+		"id": "12",
+		"name": "Optical",
+		"subCategories": [
+			{
+				"id": "12.a",
+				"name": "Fiber Optic Control",
+				"subCategories": [
+					{
+						"id": "12.a.1",
+						"name": "Current Mirrors"
+					},
+					{
+						"id": "12.a.2",
+						"name": "Translinear Logarithmic Amplifiers"
+					},
+					{
+						"id": "12.a.3",
+						"name": "Thermoelectric Cooler Controller"
+					}
+				]
+			},
+			{
+				"id": "12.b",
+				"name": "Fiber Optic Data",
+				"subCategories": [
+					{
+						"id": "12.b.1",
+						"name": "Clock and Data Recovery/Retiming"
+					},
+					{
+						"id": "12.b.2",
+						"name": "Laser Drivers"
+					},
+					{
+						"id": "12.b.3",
+						"name": "Modulator Drivers"
+					},
+					{
+						"id": "12.b.4",
+						"name": "Optical Limiting Amplifiers"
+					},
+					{
+						"id": "12.b.5",
+						"name": "Optical Transimpedance Amplifiers"
+					},
+					{
+						"id": "12.b.6",
+						"name": "photo Detector with Integrated Transimpedance Amplifiers "
+					}
+				]
+			},
+			{
+				"id": "12.c",
+				"name": "Optical Sensing Devices",
+				"subCategories": [
+					{
+						"id": "12.c.1",
+						"name": "Optical Mixed Signal Devices"
+					},
+					{
+						"id": "12.c.2",
+						"name": "Optical Sensors"
+					}
+				]
+			}
+		]
+	},
+	{
+		"id": "13",
+		"name": "Power Management",
+		"subCategories": [
+			{
+				"id": "13.a",
+				"name": "Linear Technlogy Power Management"
+			},
+			{
+				"id": "13.b",
+				"name": "Battery Management",
+				"subCategories": [
+					{
+						"id": "13.a.1",
+						"name": "Battery Backup IC"
+					},
+					{
+						"id": "13.a.2",
+						"name": "Battery Charger IC"
+					},
+					{
+						"id": "13.a.3",
+						"name": "Battery Source Selectors IC"
+					}
+				]
+			},
+			{
+				"id": "13.c",
+				"name": "Digital Power Management IC",
+				"subCategories": [
+					{
+						"id": "13.c.1",
+						"name": "All Digital Power Management(Parametric Search)"
+					},
+					{
+						"id": "13.c.2",
+						"name": "Digital DC-DC Controllers"
+					},
+					{
+						"id": "13.c.3",
+						"name": "Digital PFC Controllers with Power Metering"
+					}
+				]
+			},
+			{
+				"id": "13.d",
+				"name": "Display and Lighting IC"
+			},
+			{
+				"id": "13.e",
+				"name": "Hot Swap"
+			},
+			{
+				"id": "13.f",
+				"name": "Isolated Gate Drivers"
+			},
+			{
+				"id": "13.h",
+				"name": "Linear Regulators"
+			},
+			{
+				"id": "13.i",
+				"name": "Load Switches"
+			},
+			{
+				"id": "13.j",
+				"name": "MOSFET Drivers"
+			},
+			{
+				"id": "13.k",
+				"name": "Power Monitors"
+			},
+			{
+				"id": "13.l",
+				"name": "Sequencing"
+			},
+			{
+				"id": "13.m",
+				"name": "Supervisory"
+			},
+			{
+				"id": "13.m",
+				"name": "Switching Power Convertors"
+			}
+		]
+	},
+	{
+		"id": "14",
+		"name": "Processors & DSP"
+	},
+	{
+		"id": "15",
+		"name": "RF & Microwave"
+	},
+	{
+		"id": "16",
+		"name": "Sensors"
+	},
+	{
+		"id": "17",
+		"name": "Switches & Multiplexers"
+	}
+]

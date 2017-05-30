@@ -3,6 +3,7 @@
   position: absolute;
   z-index: 99;
   width: 100%;
+  top:29px;
 }
 
 .categories-container .emptybar{
@@ -16,7 +17,7 @@
 }
 
 .categories-list{
-  width: 350px;
+  width: 335px;
   margin:0;
   padding:0;
 }
@@ -24,24 +25,56 @@
   list-style: none;
 }
 
+.categories-container .header {
+    max-width: 300px;
+    padding: 20px 32px;
+    margin: 0;
+    font-family: Azbuka,Helvetica,Arial,sans-serif;
+}
+
+.header2{
+  font-family: Azbuka,Helvetica,Arial,sans-serif;
+  font-size: 30px;
+  line-height: 1.1;
+}
+
+a.subcat-link {
+    color: #009FBD;
+}
+
+
+.categories-list li>.sub-categories{
+  position: absolute;
+  left: 335px;
+  top: 0;
+  display:none;
+  width:330px;
+  min-height: 600px;
+  border-left:solid 1px silver;
+  display: none;
+}
+.categories-list li>.categories-list.show{
+  display: block;
+}
 .categories-list li:hover{
   background: #009FBD;
 }
 
-.categories-list li a{
+.categories-list li>a, .sub-categories li>a{
   color: #009FBD;
-  padding:5px 10px;
+  padding:8px 32px;
   width: 100%;
   display: block;
   font-size: 12px;
 }
 
-.categories-list li a:hover{
+.categories-list li:hover>a{
   color: #ffffff;
 }
 
 .didyouknow{
   background-color: #009fbd;
+  margin-top: 70px;
 }
 
 .tab-products .tabpane.Product {
@@ -102,8 +135,37 @@
    text-decoration: none!important;
  }
 
-
-
  .tabpane.PST {
      display: none;
  }
+
+ .h2{
+     font-family: Azbuka,Helvetica,Arial,sans-serif;
+     font-size: 30px;
+     line-height: 1.1;
+     padding:7px 20px !important;
+ }
+
+.categories-list li.active>a{
+  background-color: #009fbd;
+  color:#ffffff;
+}
+
+.categories-list li.active:after {
+    position: relative;
+    content: "";
+    float: right;
+    border-color: transparent transparent transparent #009fbd;
+    left: 8px;
+    border-style: solid;
+    border-width: 4px;
+    top: -19px;
+    width: 0;
+    height: 0;
+    z-index: 999;
+}
+
+.list-container{
+  width: 100%;
+  position: relative;
+}

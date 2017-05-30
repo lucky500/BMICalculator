@@ -3,7 +3,7 @@ import Carousel from '../../components/Carousel';
 import NewProducts from '../../components/NewProducts';
 import Carousel2 from '../../components/Carousel2';
 import RadioVerse from '../../components/RadioVerse';
-
+import Breadcrumb from '../../components/Breadcrumb';
 
 class Contact extends React.Component {
 
@@ -25,6 +25,7 @@ class Contact extends React.Component {
   render() {
       return(
           <div>
+              <Breadcrumb />
               <Carousel />
               <NewProducts />
               <RadioVerse />

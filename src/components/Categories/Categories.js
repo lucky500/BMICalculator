@@ -7,25 +7,33 @@ class Categories extends React.Component{
     super(props);
     this.state = {
       Categories:CategoriesData,
-      show:this.props.show
+      show:this.props.show,
+      categoryLevel:0,
+      activeCategories:{}
     };
 
     this.hideCategories = this.hideCategories.bind(this);
   }
 
   componentWillReceiveProps(nextProps){
-    if(this.state.show !== nextProps.show){
+    if(this.props.show !== nextProps.show){
       this.setState({
-        show:nextProps.show,
-        hide:false
+        show:nextProps.show
       });
     }
   }
 
   hideCategories() {
     this.setState({
-      show:false,
-      hide:true
+      show:false
+    });
+  }
+
+  showSubCategories(categoryName,categoryLevel){
+    this.setState((prevState)=>{
+      var activeCategories = categoryLevel==0?{}:Object.assign(prevState.activeCategories);
+      activeCategories[categoryLevel] = categoryName;
+      return {activeCategories:activeCategories};
     });
   }
 
@@ -33,23 +41,52 @@ class Categories extends React.Component{
     return true;
   }
 
+  renderCategoryHeader(category){
+    return (
+      !!category === true ?
+        <div className="header">
+          <span className="header2">
+            <a className="text-link subcat-link" href={category.link} name={category.id}>{category.name}</a>
+          </span>
+        </div>:""
+    );
+  }
+
+  renderCategories(categories,categoryLevel, category){
+    return (categories && categories.length>0?
+      <ul className="categories-list">
+      {
+        categories.map((category) =>
+        (<li key={category.name} className={this.state.activeCategories[categoryLevel] === category.name?'active':''}>
+          {category.subCategories && category.subCategories.length>0?
+            <a href="#" onClick={() => this.showSubCategories(category.name, categoryLevel)}>{category.name}</a>:
+            <a href="#"><strong>{category.name}</strong></a>
+          }
+          <div className={"sub-categories " + (this.state.activeCategories[categoryLevel] === category.name?'show':'')}>
+            {this.renderCategoryHeader(category)}
+            {this.renderCategories(category.subCategories,categoryLevel+1, category)}
+          </div>
+        </li>
+        ))
+      }
+      </ul>:""
+  );
+}
+
+
 
   render(){
     return (
-      <div className="categories-container" style={{'display':this.state.hide || !this.state.show?'none':'block'}}>
+      <div className="categories-container" style={{'display':!this.state.show?'none':'block'}}>
         <div className="emptybar">
         </div>
         <div className="categories-section">
           <div className="row">
             <div className="col-md-12">
-              <h3>Categories</h3>
-              <ul className="categories-list">
-                {
-                  this.state.Categories.map((category) =>
-                  <li key={category.id}><a href="#">{category.name}</a></li>
-                  )
-                }
-              </ul>
+              <div className="list-container">
+                <div className="header"><span className="header2">Categories</span></div>
+                {this.renderCategories(this.state.Categories, this.state.categoryLevel)}
+              </div>
             </div>
           </div>
         </div>

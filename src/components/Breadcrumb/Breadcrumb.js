@@ -1,5 +1,5 @@
 import React from 'react';
-import '../Breadcrumb.css';
+import './Breadcrumb.css';
 
 class Breadcrumb extends React.Component {
     constructor(props){
@@ -16,8 +16,7 @@ class Breadcrumb extends React.Component {
                     link:'link2'
                 },
                 {
-                    name:'name3',
-                    link:'link3'
+                    name:'name3'
                 }
             ]
         };
@@ -26,15 +25,22 @@ class Breadcrumb extends React.Component {
     render(){
         return (
             <div className="breadcrumb">
-                <ul>
-                    {
-                        this.state.items.map((item) =>(
-                            <li key={item.name}>
-                                <a href={item.link}>{item.name}</a>
-                            </li>
-                        ))
-                    }
-                </ul>
+              <div className="breadcrumb-container">
+                  <ul>
+                    <li><a href="/" className="glyphicon glyphicon-home" alt="Home" title="Home"></a></li>
+                      {
+                          this.state.items.map((item, index) =>(
+                              <li key={item.name}>
+                                  {index<this.state.items.length-1?
+                                    <a href={item.link}>{item.name}</a>
+                                  :
+                                    <span className="active">{item.name}</span>
+                                  }
+                              </li>
+                          ))
+                      }
+                  </ul>
+                </div>
             </div>
         );
     }
